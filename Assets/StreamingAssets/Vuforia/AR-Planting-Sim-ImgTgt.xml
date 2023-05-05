@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="ARPlantingSimQR4" size="1023.000000 1023.000000" />
+    <ImageTarget name="ARPlantingSimQR3" size="1023.000000 1023.000000" />
+    <ImageTarget name="ARPlantingSimQR2" size="1023.000000 1023.000000" />
+    <ImageTarget name="ARPlantingSimQR1" size="1023.000000 1023.000000" />
+  </Tracking>
+</QCARConfig>
