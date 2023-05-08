@@ -2448,3 +2448,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 508.708933 seconds.
+  path: Assets/PlantModels/FloweringPlants/Flowers.3ds
+  artifactKey: Guid(e885c09757614a44aaccdeb256a2ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Flowers.3ds using Guid(e885c09757614a44aaccdeb256a2ddf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff8ba887b600935f0fb4140248946fe') in 0.245458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.864193 seconds.
+  path: Assets/PlantModels/FloweringPlants/Bonny_Le.jpg
+  artifactKey: Guid(8139abb49b556ab4ca10e0236667af5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Bonny_Le.jpg using Guid(8139abb49b556ab4ca10e0236667af5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9a0614d76bb9137e26f91f9e1f8bdc') in 0.019484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlantModels/FloweringPlants/Sepal1.jpg
+  artifactKey: Guid(ad02a664150fea7429fe4260bc366e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Sepal1.jpg using Guid(ad02a664150fea7429fe4260bc366e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9c67fc19f3842888b2efcd09c5bcfe') in 0.011573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PlantModels/FloweringPlants/Sepal0.jpg
+  artifactKey: Guid(3146306b2c751b14481018a2b5a30e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Sepal0.jpg using Guid(3146306b2c751b14481018a2b5a30e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cecc666ac2125f289c2033677675b4') in 0.013696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PlantModels/FloweringPlants/Sepal7.jpg
+  artifactKey: Guid(6a3b28ccdca6d2a42a947f7611c0ac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Sepal7.jpg using Guid(6a3b28ccdca6d2a42a947f7611c0ac63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc5ef0892d2ef836941436f851c8b98') in 0.013042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PlantModels/FloweringPlants/Sepal5.jpg
+  artifactKey: Guid(0e0419f6fc9288843b6b341bfbe53362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Sepal5.jpg using Guid(0e0419f6fc9288843b6b341bfbe53362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c169e1f4e45fa870169fab1b97e6ec9') in 0.011074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlantModels/FloweringPlants/Primrose.jpg
+  artifactKey: Guid(3cbbddec5bfd1eb468b7b7517357eaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Primrose.jpg using Guid(3cbbddec5bfd1eb468b7b7517357eaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5d7c3fa6144380d545a1191c34af17') in 0.011793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PlantModels/FloweringPlants/Sonchus_.jpg
+  artifactKey: Guid(626a5189645fe114fa56225d66cd682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Sonchus_.jpg using Guid(626a5189645fe114fa56225d66cd682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea36a14617e5b2f5c3d8d7091dcec726') in 0.011523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlantModels/FloweringPlants/Tulip_Le.jpg
+  artifactKey: Guid(a8aa8417041e5434c9851fc12e45644b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Tulip_Le.jpg using Guid(a8aa8417041e5434c9851fc12e45644b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0d2d67c912b1dd0f6a79af93f3b561') in 0.012118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PlantModels/FloweringPlants/Sepal6.jpg
+  artifactKey: Guid(c1cfe190c10b8614698dcb01f4a01fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Sepal6.jpg using Guid(c1cfe190c10b8614698dcb01f4a01fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37774131b2a1b8d724d587281c18a465') in 0.013157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlantModels/FloweringPlants/Sepal2.jpg
+  artifactKey: Guid(3089c972718f19c4dbdffa282d50aac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Sepal2.jpg using Guid(3089c972718f19c4dbdffa282d50aac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a959b7ab1412f9620ef9cb5ae8c206') in 0.012731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PlantModels/FloweringPlants/ST_Petal.jpg
+  artifactKey: Guid(679ae3d69b7042f4b979d63ad26e4920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/ST_Petal.jpg using Guid(679ae3d69b7042f4b979d63ad26e4920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e9523119a44a54eba87708711b3348') in 0.015429 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
