@@ -384,3 +384,439 @@ Received Import Request.
   path: Assets/PlantModels/Herbs/Thyme/Full_Thyme.prefab
   artifactKey: Guid(f83e8c52ea9859242950a22715a6cd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/PlantModels/Herbs/Thyme/Full_Thyme.prefab using Guid(f83e8c52ea9859242950a22715a6cd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bcb37ede020af9ce25bb50705adfdb') in 0.011435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 261.111014 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/marsh-marigold-high-poly.zip
+  artifactKey: Guid(2026c5a53881ba748bde650da8886255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/marsh-marigold-high-poly.zip using Guid(2026c5a53881ba748bde650da8886255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95edc47b8dd8b4176d39c564beffa62') in 0.011481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.434303 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/marigold_BaseColor.png
+  artifactKey: Guid(f2993ccaea5f07344b265de35b1e51ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/marigold_BaseColor.png using Guid(f2993ccaea5f07344b265de35b1e51ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb2ab39478eb83a5dc98f60c1f39902') in 0.018586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/marshmarigold_high.fbx
+  artifactKey: Guid(43a5901eda1305e4eaf42eb552bd3991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/marshmarigold_high.fbx using Guid(43a5901eda1305e4eaf42eb552bd3991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781be719471d968b23e2d61982119227') in 0.150767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.598373 seconds.
+  path: Assets/PlantModels/FloweringPlants/Lavender
+  artifactKey: Guid(51683e1e7dffd014fb5c3762873984e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Lavender using Guid(51683e1e7dffd014fb5c3762873984e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c75a19bf325186d4b47536ae56bc6d') in 0.011615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.953647 seconds.
+  path: Assets/PlantModels/FloweringPlants/Lavender/lavanda.fbx
+  artifactKey: Guid(bc4d4994aeed1f646bfe00f312adf1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Lavender/lavanda.fbx using Guid(bc4d4994aeed1f646bfe00f312adf1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edec6a0918e06ebf1f2c06f0c7a65393') in 2.204807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.492823 seconds.
+  path: Assets/PlantModels/FloweringPlants/Lavender/lavanda.png
+  artifactKey: Guid(da1f9d8337ee65c46ae3faf91b0404f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Lavender/lavanda.png using Guid(da1f9d8337ee65c46ae3faf91b0404f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0820042c0f7f1febce543f9dddefb7b') in 0.012780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.321197 seconds.
+  path: Assets/PlantModels/FloweringPlants/Lavender/Textures
+  artifactKey: Guid(e8ed67943c76924499c0688696ffc43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Lavender/Textures using Guid(e8ed67943c76924499c0688696ffc43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608df176fafd508cf591c6bc29c86b56') in 0.006601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057680 seconds.
+  path: Assets/PlantModels/FloweringPlants/Lavender/Textures/lavanda.png
+  artifactKey: Guid(8673883f298a4c54e963a42376a2fddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Lavender/Textures/lavanda.png using Guid(8673883f298a4c54e963a42376a2fddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddb4527249a97c906665f07b0509477') in 0.011009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.510935 seconds.
+  path: Assets/PlantModels/FloweringPlants/Lavender/lavanda.prefab
+  artifactKey: Guid(4268d9b9d41d9cb48a548614a301aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Lavender/lavanda.prefab using Guid(4268d9b9d41d9cb48a548614a301aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cb1f24ab75fbb445b157efae678ccb') in 0.057590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.952593 seconds.
+  path: Assets/PlantModels/FloweringPlants/Lavender/Full_Lavender.prefab
+  artifactKey: Guid(4268d9b9d41d9cb48a548614a301aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Lavender/Full_Lavender.prefab using Guid(4268d9b9d41d9cb48a548614a301aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef2fc6d8b2ef4852f065d151407ebdc') in 0.067391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 118.827527 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(5c8d2b9274871a74e8df4d21af37c772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(5c8d2b9274871a74e8df4d21af37c772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef277606c131438218622b50d545b9f1') in 0.016389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.115026 seconds.
+  path: Assets/Materials/Purple.mat
+  artifactKey: Guid(5c8d2b9274871a74e8df4d21af37c772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Purple.mat using Guid(5c8d2b9274871a74e8df4d21af37c772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b508b1421abb319b994c49a80b03305') in 0.011421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1344.350150 seconds.
+  path: Assets/PlantModels/FloweringPlants/Lavender/Full_Lavender.prefab
+  artifactKey: Guid(4268d9b9d41d9cb48a548614a301aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Lavender/Full_Lavender.prefab using Guid(4268d9b9d41d9cb48a548614a301aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ca72ae8e2193c964080ad864ad217b') in 0.057652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.470889 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower
+  artifactKey: Guid(16ab1899347d1b846a82ea29e13a505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower using Guid(16ab1899347d1b846a82ea29e13a505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4bd71852ee6c7f3c36f9e2f9e44569') in 0.009575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 891.190317 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/bud.jpg
+  artifactKey: Guid(9de987f831a793445add318834ae3191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/bud.jpg using Guid(9de987f831a793445add318834ae3191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8dad41886a4499d796cefb133c2bc8') in 0.022753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/flowers bw.jpg
+  artifactKey: Guid(01c6d54278b536346b179e379c9c993a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/flowers bw.jpg using Guid(01c6d54278b536346b179e379c9c993a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ee216ecddb9c1262d0b22b430be4d5') in 0.014985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/flowers.jpg
+  artifactKey: Guid(1b6cfa57c45b261499e414efec31da82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/flowers.jpg using Guid(1b6cfa57c45b261499e414efec31da82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136f56dc9bd92da1054a211890077a4b') in 0.015076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/grass blade.jpg
+  artifactKey: Guid(4dfe0c9e582b33f4a9bb20b453593a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/grass blade.jpg using Guid(4dfe0c9e582b33f4a9bb20b453593a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebd689bffad81153245431ab5afa134') in 0.016003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/Cornflower FBX.FBX
+  artifactKey: Guid(d60b94ce9ad923646b50c663bfa358a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/Cornflower FBX.FBX using Guid(d60b94ce9ad923646b50c663bfa358a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad89d3a4dc15035961dfafe0ef58d06') in 0.142324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.627956 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/Cornflower tall 05.prefab
+  artifactKey: Guid(f01d0d566e56a7f4d906ee457317452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/Cornflower tall 05.prefab using Guid(f01d0d566e56a7f4d906ee457317452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7261826e5ebd83850347794589547ba2') in 0.017417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.919153 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/Full_CornFlower.prefab
+  artifactKey: Guid(f01d0d566e56a7f4d906ee457317452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/Full_CornFlower.prefab using Guid(f01d0d566e56a7f4d906ee457317452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fa44f81111b5502b869a57a36aea71') in 0.015342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.468383 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/Extras
+  artifactKey: Guid(7f7f258d87229a34592a9e4831c2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/Extras using Guid(7f7f258d87229a34592a9e4831c2d2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b479b780ea5718f1475f9aaadfdbd78') in 0.005963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.672716 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/flowers 1.jpg
+  artifactKey: Guid(03f7bfd3f6a7f694b9eefbb48d8eeb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/flowers 1.jpg using Guid(03f7bfd3f6a7f694b9eefbb48d8eeb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb6ab6280a93bf6a8e4348114ef7528') in 0.011435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/grass blade 1.jpg
+  artifactKey: Guid(776c3bb051f7c33499bb9551a55ca326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/grass blade 1.jpg using Guid(776c3bb051f7c33499bb9551a55ca326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e886aa0d134b162c3f098b94a7d76a') in 0.009679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.762719 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/Full_CornFlower.prefab
+  artifactKey: Guid(f01d0d566e56a7f4d906ee457317452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/Full_CornFlower.prefab using Guid(f01d0d566e56a7f4d906ee457317452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbe4877257a9d5218959743da3fb1cc') in 0.011884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.500488 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/Extras/Materials
+  artifactKey: Guid(b89fe129b5b333946b6071fa229b69da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/Extras/Materials using Guid(b89fe129b5b333946b6071fa229b69da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e3f2b4cc9146544e4f4668929a7f66') in 0.007507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059738 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/Extras/Materials/bud.mat
+  artifactKey: Guid(fa79983034fb7a145bfb2b1cf564adac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/Extras/Materials/bud.mat using Guid(fa79983034fb7a145bfb2b1cf564adac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192eb23ad0b31a781f0cfab27b8ac4dd') in 0.012778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 428.657915 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Flower Buds_mm.obj
+  artifactKey: Guid(2b567027855b1ef4c9a3946fa5884da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Flower Buds_mm.obj using Guid(2b567027855b1ef4c9a3946fa5884da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12d9a4badac035cefc5ec5597e79aa3') in 0.029933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.292776 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Flower Buds_mm.mtl
+  artifactKey: Guid(78e450684c66b054e968885211a61f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Flower Buds_mm.mtl using Guid(78e450684c66b054e968885211a61f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2536a25dfd74e43e1242a23201bf2207') in 0.002501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.627825 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Flower Buds_mm_1.jpeg
+  artifactKey: Guid(f150f05bb597d9747b2f196d6acea05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Flower Buds_mm_1.jpeg using Guid(f150f05bb597d9747b2f196d6acea05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913dd302f71c5b98ae8348726dabdba1') in 0.011564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.621722 seconds.
+  path: Assets/Materials/buds.mat
+  artifactKey: Guid(c2dff42f2e8ac1a40b7f610f28a883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/buds.mat using Guid(c2dff42f2e8ac1a40b7f610f28a883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24529e4651cb24471a2bfb7284ac7127') in 0.011904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.949529 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Groundplants 1_DGroundplants 1_N2023054508611406.terrainlayer
+  artifactKey: Guid(c4b12c4344afee941957dcf756d37373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Groundplants 1_DGroundplants 1_N2023054508611406.terrainlayer using Guid(c4b12c4344afee941957dcf756d37373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d213037999c53ff1eb050adb936e025') in 0.038479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.942185 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Flower Buds_mm.prefab
+  artifactKey: Guid(88d282f1ab635f14ab82339588780acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Flower Buds_mm.prefab using Guid(88d282f1ab635f14ab82339588780acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e2296c22dfe50d7380a0968c6379f9') in 0.015797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.881918 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Half_Marigold.prefab
+  artifactKey: Guid(88d282f1ab635f14ab82339588780acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Half_Marigold.prefab using Guid(88d282f1ab635f14ab82339588780acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8179782c7173998a440fdc85177c08') in 0.013698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.752005 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Full_Marigold.fbx
+  artifactKey: Guid(43a5901eda1305e4eaf42eb552bd3991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Full_Marigold.fbx using Guid(43a5901eda1305e4eaf42eb552bd3991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c840290ceae446552f50497613c0a734') in 0.031228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.518210 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/white flower.fbx
+  artifactKey: Guid(9871a01a260d72d4abdd71e50c384826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/white flower.fbx using Guid(9871a01a260d72d4abdd71e50c384826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e448cec93b83d85347f4db427ec76fb9') in 0.061906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.117632 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/grass.png
+  artifactKey: Guid(615a888a3d9e13442b4f605d99ef9088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/grass.png using Guid(615a888a3d9e13442b4f605d99ef9088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defbf7abaebaa07f73bd6f57d37d77a8') in 0.013982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/petal.png
+  artifactKey: Guid(c7b676dde7a8e9e4d8dc60cde40b0db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/petal.png using Guid(c7b676dde7a8e9e4d8dc60cde40b0db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28926d68bc76c11bb4dfbc19886957d') in 0.014988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/white flower.fbx
+  artifactKey: Guid(9871a01a260d72d4abdd71e50c384826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/white flower.fbx using Guid(9871a01a260d72d4abdd71e50c384826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969ea26a429ba6574ceb7390236a4a2c') in 0.079973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.082603 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/white flower.fbx
+  artifactKey: Guid(9871a01a260d72d4abdd71e50c384826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/white flower.fbx using Guid(9871a01a260d72d4abdd71e50c384826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90940ece6481c60cd035ae3946bc866') in 0.059998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.683302 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/white flower.fbx
+  artifactKey: Guid(9871a01a260d72d4abdd71e50c384826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/white flower.fbx using Guid(9871a01a260d72d4abdd71e50c384826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49374fa0ca68738e8ebfdb9b554c3b4f') in 0.050481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 126.314004 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/stigma.png
+  artifactKey: Guid(a0609a43cc969f1438643913111046ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/stigma.png using Guid(a0609a43cc969f1438643913111046ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d13f3fa153de6c5202bb82c6a7f7df') in 0.012295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.458741 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/petal.png
+  artifactKey: Guid(c7b676dde7a8e9e4d8dc60cde40b0db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/petal.png using Guid(c7b676dde7a8e9e4d8dc60cde40b0db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77a3f4cd5740fdd4536e1578c3d6a1f') in 0.012894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.494997 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/white flower.prefab
+  artifactKey: Guid(d047f5764064fc94283ea28e9d745d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/white flower.prefab using Guid(d047f5764064fc94283ea28e9d745d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3013d38f98d5837cfba236cd4c4b2456') in 0.015368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.268969 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/Full_CornFlower.prefab
+  artifactKey: Guid(d047f5764064fc94283ea28e9d745d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/Full_CornFlower.prefab using Guid(d047f5764064fc94283ea28e9d745d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1c1fa6e8db255d8290702afde374ed') in 0.012987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 243.377465 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Preview - wire 2.png
+  artifactKey: Guid(46e77b5c5b8ae0449b6bd6daac3bbc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Preview - wire 2.png using Guid(46e77b5c5b8ae0449b6bd6daac3bbc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec02d386be54e48512ac53326dd50fc3') in 0.017945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Preview.png
+  artifactKey: Guid(f4295c46444a3c641bee5430e00316ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Preview.png using Guid(f4295c46444a3c641bee5430e00316ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f50e90a42d2f16b8b199364552bf05e') in 0.015952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Rau om 1.jpg
+  artifactKey: Guid(351f38c59ca71b943a43be6720cc1290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Rau om 1.jpg using Guid(351f38c59ca71b943a43be6720cc1290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a12a1e8cdecee7524a77ff1d06343c') in 0.014159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Rau om 2.jpg
+  artifactKey: Guid(b84ab555f65e0e04aa920da33d5471d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Rau om 2.jpg using Guid(b84ab555f65e0e04aa920da33d5471d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3057594cf33fb6a5190dffc17d98a3bd') in 0.013486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Rau om 3.jpg
+  artifactKey: Guid(1b25f1cb56fbe274eb36dc05f5df1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Rau om 3.jpg using Guid(1b25f1cb56fbe274eb36dc05f5df1149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0ec4c909721650b68a72732429ee02') in 0.014328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Rau Om.obj
+  artifactKey: Guid(9b270ae00808e3d4485cf34f8ece4834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Rau Om.obj using Guid(9b270ae00808e3d4485cf34f8ece4834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d592bd4cddf29154840afc425e85c7c') in 0.058995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 166.105305 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Rau om 4.jpg
+  artifactKey: Guid(fce9ceed9fd6c074cb9119b2b4e4b8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Rau om 4.jpg using Guid(fce9ceed9fd6c074cb9119b2b4e4b8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61c5b61cfb8cff9e9cfc3cb86be13e6') in 0.012831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.074973 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Rau Om.prefab
+  artifactKey: Guid(e3c31804db89c564281c30f457c033e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Rau Om.prefab using Guid(e3c31804db89c564281c30f457c033e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af70d2565fbd79b017b37bd49bab955') in 0.018452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.588209 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Full_Rosemary.prefab
+  artifactKey: Guid(e3c31804db89c564281c30f457c033e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Full_Rosemary.prefab using Guid(e3c31804db89c564281c30f457c033e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2513e9630a8748979a4e6c34d9598954') in 0.012925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.627644 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Rau Om.FBX
+  artifactKey: Guid(f4565c26cd5bce74498ac573f3ef2dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Rau Om.FBX using Guid(f4565c26cd5bce74498ac573f3ef2dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3320899e26d3faae8306c45620a1ef') in 0.079591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.557418 seconds.
+  path: Assets/PlantModels/Herbs/Mint/Mint plant.jpg
+  artifactKey: Guid(a36f3e37622da574383767739ed9d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Mint/Mint plant.jpg using Guid(a36f3e37622da574383767739ed9d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebd37c45a702c5d70f7e3f7749b9e96') in 0.011737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 715.129942 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Parsley_standart.obj
+  artifactKey: Guid(c6eecc1f3260a31438c94d2f5755e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Parsley_standart.obj using Guid(c6eecc1f3260a31438c94d2f5755e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad4b7ea49d4d95d9beeba889a0a4e26') in 0.164689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 242.662626 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Parsley_standart.prefab
+  artifactKey: Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Parsley_standart.prefab using Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f62882da1cb074864b8cef718fb61de') in 0.012807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.872540 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab
+  artifactKey: Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab using Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083c661f6d1f57ab919c3277fda96740') in 0.013873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.598277 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab
+  artifactKey: Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab using Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df6dce602ce5e54e7a3233be1625b0c') in 0.009114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.573060 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab
+  artifactKey: Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab using Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9e2d4c4b1c08f7e43f0dd3933ea10d') in 0.009399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.999647 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab
+  artifactKey: Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab using Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66377e32e8b72e3cde6013d937c85624') in 0.009805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.747406 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab
+  artifactKey: Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab using Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9931b211624b2d1948af2f734ea99189') in 0.012342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.069310 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab
+  artifactKey: Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab using Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6cd33cf58b03214637c3677b3a45cb') in 0.017493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.254470 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab
+  artifactKey: Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab using Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ccf7502b8981691ec9747c76413d56') in 0.012461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.364517 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab
+  artifactKey: Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab using Guid(102db3d3ef59bea4f842d22367d3322d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790fdbb34a8366ac2f4b4b0a95d1dae2') in 0.015491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2986.810467 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro
+  artifactKey: Guid(cc129c1ab54a0414f8c51a0cff203d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro using Guid(cc129c1ab54a0414f8c51a0cff203d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca035a0d6635bd6abe38f35a903d6a5') in 0.010445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.706117 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary
+  artifactKey: Guid(eb850d2b3a9809540b158dd2221fa385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary using Guid(eb850d2b3a9809540b158dd2221fa385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b903e546cce12bc2af8b3ea0cb3f77') in 0.006666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 419.194873 seconds.
+  path: Assets/PlantModels/Herbs/Mint
+  artifactKey: Guid(1456e92f28a83974dbcfbd78591352ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Mint using Guid(1456e92f28a83974dbcfbd78591352ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e47126d7e9b0ee71a1544eb837b62a1') in 0.007986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.278983 seconds.
+  path: Assets/PlantModels/Herbs/Mint/mint leaves.fbx
+  artifactKey: Guid(b063371882206fe4f9a05eec4ec851b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Mint/mint leaves.fbx using Guid(b063371882206fe4f9a05eec4ec851b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbaf987df8865648ea071c9f077d16be') in 0.084308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.782463 seconds.
+  path: Assets/PlantModels/Herbs/Mint/alfa листочки мяты.png
+  artifactKey: Guid(cbab062f1b0c35c4194a94a96655ea80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Mint/alfa листочки мяты.png using Guid(cbab062f1b0c35c4194a94a96655ea80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbe7f8ea02d2760ceefcb6038cc51b7') in 0.011964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.095460 seconds.
+  path: Assets/PlantModels/Herbs/Mint/mint leaves.fbx
+  artifactKey: Guid(b063371882206fe4f9a05eec4ec851b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Mint/mint leaves.fbx using Guid(b063371882206fe4f9a05eec4ec851b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6607769201483eab3eca88649f66a0ef') in 0.127129 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -162,3 +162,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 934081.976979 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/marigold_No.jpeg
+  artifactKey: Guid(3bde4ebbf24e66141b9f0fcf34c8bad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/marigold_No.jpeg using Guid(3bde4ebbf24e66141b9f0fcf34c8bad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb01b5a7f0db1a4be8d9f09411d9188') in 0.106654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/marigold_Ro.jpeg
+  artifactKey: Guid(1a8bd32d4b282a64b897b1f7994a50e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/marigold_Ro.jpeg using Guid(1a8bd32d4b282a64b897b1f7994a50e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b618befeae65dc34331a18a12fd1a42a') in 0.020846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/specular_cube.png
+  artifactKey: Guid(9c4e6c84c2ae9b44793a42a1c6b24d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/specular_cube.png using Guid(9c4e6c84c2ae9b44793a42a1c6b24d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6812bb9f427f25b5df58a18ace7f56b6') in 0.016713 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
