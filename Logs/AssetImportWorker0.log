@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16122 MB
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15724 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Desktop/stuff/class/VR/Assignment/Planting-Sim
+C:/College/Y2S3/Virtual Reality/Clone Planting Sim/Planting-Sim
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50947
-Successfully changed project path to: C:/Users/user/Desktop/stuff/class/VR/Assignment/Planting-Sim
-C:/Users/user/Desktop/stuff/class/VR/Assignment/Planting-Sim
+58254
+Successfully changed project path to: C:/College/Y2S3/Virtual Reality/Clone Planting Sim/Planting-Sim
+C:/College/Y2S3/Virtual Reality/Clone Planting Sim/Planting-Sim
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,104 +47,97 @@ C:/Users/user/Desktop/stuff/class/VR/Assignment/Planting-Sim
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12500] Host "[IP] 26.149.129.224 [Port] 0 [Flags] 2 [Guid] 644091750 [EditorId] 644091750 [Version] 1048832 [Id] WindowsEditor(7,BrianWong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7004] Host "[IP] 192.168.0.124 [Port] 0 [Flags] 2 [Guid] 3325740448 [EditorId] 3325740448 [Version] 1048832 [Id] WindowsEditor(7,Zully) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12500] Host "[IP] 26.149.129.224 [Port] 0 [Flags] 2 [Guid] 644091750 [EditorId] 644091750 [Version] 1048832 [Id] WindowsEditor(7,BrianWong) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7004] Host "[IP] 192.168.0.124 [Port] 0 [Flags] 2 [Guid] 3325740448 [EditorId] 3325740448 [Version] 1048832 [Id] WindowsEditor(7,Zully) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 75.67 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 2.68 ms.
+Refreshing native plugins compatible for Editor in 78.99 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 2.40 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/stuff/class/VR/Assignment/Planting-Sim/Assets
+[Subsystems] Discovering subsystems at path C:/College/Y2S3/Virtual Reality/Clone Planting Sim/Planting-Sim/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
     Vendor:   NVIDIA
-    VRAM:     6009 MB
-    Driver:   31.0.15.3141
+    VRAM:     3990 MB
+    Driver:   30.0.15.1274
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004061 seconds.
+Registered in 0.007004 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 251 ms
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 78.87 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 67.08 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.851 seconds
+- Completed reload, in  0.570 seconds
 Domain Reload Profiling:
-	ReloadAssembly (851ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (571ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (699ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (392ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (109ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (516ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (229ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (312ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006881 seconds.
+Registered in 0.008816 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\stuff\class\VR\Assignment\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\stuff\class\VR\Assignment\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\College\Y2S3\Virtual Reality\Clone Planting Sim\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\College\Y2S3\Virtual Reality\Clone Planting Sim\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 79.51 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 69.43 ms, found 6 plugins.
 Preloading 2 native plugins for Editor in 0.10 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
+- Completed reload, in  1.067 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1147ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (1068ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (935ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (859ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
+			SetupTypeCache (287ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (441ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (401ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (220ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -152,19 +145,18 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
-Unloading 3554 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (87.0 KB). Loaded Objects now: 4311.
-Memory consumption went from 126.2 MB to 126.2 MB.
-Total: 3.196900 ms (FindLiveObjects: 0.301400 ms CreateObjectMapping: 0.115000 ms MarkObjects: 2.644900 ms  DeleteObjects: 0.134400 ms)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3555 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (87.1 KB). Loaded Objects now: 4310.
+Memory consumption went from 126.5 MB to 126.4 MB.
+Total: 4.155900 ms (FindLiveObjects: 0.597400 ms CreateObjectMapping: 0.157400 ms MarkObjects: 3.291700 ms  DeleteObjects: 0.107900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -172,207 +164,371 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 56819.392630 seconds.
-  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
-  artifactKey: Guid(b3a562234c7f6fb498a3450706aaaef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(b3a562234c7f6fb498a3450706aaaef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4674deb44a06ead5a4f4cf6c980d7b') in 0.041670 seconds 
+  Time since last request: 922389.390357 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(833e12f1d550f2c4b96eb6fa3a5ea199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(833e12f1d550f2c4b96eb6fa3a5ea199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63610e2d16a83703482d54752c700bc2') in 0.016242 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 702.720046 seconds.
-  path: Assets/Resources/VuforiaConfiguration.asset
-  artifactKey: Guid(9fb8023ae29ed724d88aa63acc46e7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(9fb8023ae29ed724d88aa63acc46e7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74dde108bb503673a1b84dd492cd187') in 0.012336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.875624 seconds.
-  path: Assets/Editor/Migration
-  artifactKey: Guid(784c1ed2aa16453488a41efb0eeae8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/Migration using Guid(784c1ed2aa16453488a41efb0eeae8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1a818d71dfc3372dc11d430c4a4906') in 0.006662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.262312 seconds.
-  path: Packages/com.unity.xr.arfoundation/package.json
-  artifactKey: Guid(08e6a1d1bc87fb6408c3e916a260691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/package.json using Guid(08e6a1d1bc87fb6408c3e916a260691b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ec08bbb6b157657291f930742498c7') in 0.019179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 98.661077 seconds.
-  path: Assets/PlantModels/Herbs
-  artifactKey: Guid(372f3b856eeaf0040857706e33f6ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlantModels/Herbs using Guid(372f3b856eeaf0040857706e33f6ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8807e0915e55f030ccdafcda831a2aac') in 0.007234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.699072 seconds.
+  Time since last request: 0.000032 seconds.
   path: Assets/PlantModels/FloweringPlants
   artifactKey: Guid(2f7f159fffd55ba45a5bdcd89ebda255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlantModels/FloweringPlants using Guid(2f7f159fffd55ba45a5bdcd89ebda255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ecfc4b9d541705852b8c9ab6e8c16a') in 0.007228 seconds 
+Start importing Assets/PlantModels/FloweringPlants using Guid(2f7f159fffd55ba45a5bdcd89ebda255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ecfc4b9d541705852b8c9ab6e8c16a') in 0.006947 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.527193 seconds.
-  path: Assets/PlantModels/FloweringPlants/Cornflower
-  artifactKey: Guid(16ab1899347d1b846a82ea29e13a505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlantModels/FloweringPlants/Cornflower using Guid(16ab1899347d1b846a82ea29e13a505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4bd71852ee6c7f3c36f9e2f9e44569') in 0.007389 seconds 
+  Time since last request: 1.966063 seconds.
+  path: Assets/PlantModels/Herbs
+  artifactKey: Guid(372f3b856eeaf0040857706e33f6ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs using Guid(372f3b856eeaf0040857706e33f6ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8807e0915e55f030ccdafcda831a2aac') in 0.006880 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.934621 seconds.
-  path: Assets/PlantModels/FloweringPlants/Lavender
-  artifactKey: Guid(51683e1e7dffd014fb5c3762873984e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlantModels/FloweringPlants/Lavender using Guid(51683e1e7dffd014fb5c3762873984e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c75a19bf325186d4b47536ae56bc6d') in 0.007251 seconds 
+  Time since last request: 1.444419 seconds.
+  path: Assets/PlantModels/Vegetables
+  artifactKey: Guid(0f9c0083b80249143900a65e2dcc1cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables using Guid(0f9c0083b80249143900a65e2dcc1cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2a80786bb55fc5a9c30c8aed24bec8') in 0.006730 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.402314 seconds.
-  path: Assets/PlantModels/Vegetables/Turnip/Turnip_Full.obj
-  artifactKey: Guid(f8dc89c28c0ce8045b9e2e15b7d8cc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlantModels/Vegetables/Turnip/Turnip_Full.obj using Guid(f8dc89c28c0ce8045b9e2e15b7d8cc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3530ca6984d2c8ee91a12d658b41993') in 0.471536 seconds 
+  Time since last request: 0.675546 seconds.
+  path: Assets/PlantModels/Vegetables/Cucumber
+  artifactKey: Guid(6ed3530d7029832478a31747fcde2484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Cucumber using Guid(6ed3530d7029832478a31747fcde2484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3603611e76c517a00367e4cc47dcff48') in 0.006457 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.144674 seconds.
-  path: Assets/PlantModels/Vegetables/Tomato/Tomato_Half.obj
-  artifactKey: Guid(7d0531bb73c03b24690eaa3bfc1b7ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlantModels/Vegetables/Tomato/Tomato_Half.obj using Guid(7d0531bb73c03b24690eaa3bfc1b7ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dcab70b0947be569051e870909285b') in 0.038529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.157565 seconds.
+  Time since last request: 0.079668 seconds.
   path: Assets/PlantModels/Vegetables/Cucumber/Cucumber_Half.obj
   artifactKey: Guid(bd219cc815e53d54389a09c9988000bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlantModels/Vegetables/Cucumber/Cucumber_Half.obj using Guid(bd219cc815e53d54389a09c9988000bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4456f64623d4b35e832d37afedcb6d51') in 0.078179 seconds 
+Start importing Assets/PlantModels/Vegetables/Cucumber/Cucumber_Half.obj using Guid(bd219cc815e53d54389a09c9988000bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757128867091945a444117e6db817d0f') in 0.367450 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.310033 seconds.
-  path: Assets/PlantModels/Vegetables/Corn/Corn_Full.obj
-  artifactKey: Guid(05728d28553aa604c94c1a0362776eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlantModels/Vegetables/Corn/Corn_Full.obj using Guid(05728d28553aa604c94c1a0362776eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1c96f77987e6e1f6d07c699c0d4018') in 0.129173 seconds 
+  Time since last request: 2.035425 seconds.
+  path: Assets/PlantModels/Vegetables/Cabbage
+  artifactKey: Guid(52917b06eb704254f9522d06632e8290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Cabbage using Guid(52917b06eb704254f9522d06632e8290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c16f77bd41998dc2515b896c0d10ba') in 0.006299 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.351507 seconds.
+  Time since last request: 0.059343 seconds.
   path: Assets/PlantModels/Vegetables/Cabbage/Cabbage_Half.obj
   artifactKey: Guid(b907adf0bc512c24e929af3f51c52e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlantModels/Vegetables/Cabbage/Cabbage_Half.obj using Guid(b907adf0bc512c24e929af3f51c52e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b6f8551ecc58ba948ebafd03b1dbe9') in 0.093163 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006104 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\stuff\class\VR\Assignment\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\stuff\class\VR\Assignment\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.10 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.029 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1030ms)
-		BeginReloadAssembly (195ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (759ms)
-			LoadAssemblies (149ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (311ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (282ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (174ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.55 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 3526 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (101.9 KB). Loaded Objects now: 4360.
-Memory consumption went from 129.1 MB to 129.0 MB.
-Total: 3.271500 ms (FindLiveObjects: 0.345100 ms CreateObjectMapping: 0.275700 ms MarkObjects: 2.540800 ms  DeleteObjects: 0.108300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/PlantModels/Vegetables/Cabbage/Cabbage_Half.obj using Guid(b907adf0bc512c24e929af3f51c52e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eee95575899763e1bbb1415cb1d87c4') in 0.094829 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 375.141709 seconds.
+  Time since last request: 1.507432 seconds.
+  path: Assets/PlantModels/Vegetables/Corn
+  artifactKey: Guid(78524513d88640f4e9e2d44279e85280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn using Guid(78524513d88640f4e9e2d44279e85280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09543290a5cf8c54abd37d4550c9e3e6') in 0.006833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039302 seconds.
+  path: Assets/PlantModels/Vegetables/Corn/Corn_Full.obj
+  artifactKey: Guid(05728d28553aa604c94c1a0362776eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn/Corn_Full.obj using Guid(05728d28553aa604c94c1a0362776eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660e0114e960b2c59163c21f19222b1b') in 0.117183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.007334 seconds.
+  path: Assets/PlantModels/Vegetables/Tomato
+  artifactKey: Guid(e39ac934f0706ba47950fe673f0242a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Tomato using Guid(e39ac934f0706ba47950fe673f0242a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6f7556a5f4a24060816660fddd95c7') in 0.006484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041481 seconds.
+  path: Assets/PlantModels/Vegetables/Tomato/Tomato_Half.obj
+  artifactKey: Guid(7d0531bb73c03b24690eaa3bfc1b7ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Tomato/Tomato_Half.obj using Guid(7d0531bb73c03b24690eaa3bfc1b7ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc48398036341403b17b56aca68aad6c') in 0.029620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.660378 seconds.
+  path: Assets/PlantModels/Vegetables/Turnip
+  artifactKey: Guid(6f6bde530c324af4d93d210c78eaef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Turnip using Guid(6f6bde530c324af4d93d210c78eaef68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc502fb1a75b7a4aaf2b315d2451924') in 0.006487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034828 seconds.
+  path: Assets/PlantModels/Vegetables/Turnip/Turnip_Full.obj
+  artifactKey: Guid(f8dc89c28c0ce8045b9e2e15b7d8cc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Turnip/Turnip_Full.obj using Guid(f8dc89c28c0ce8045b9e2e15b7d8cc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c363fd8b676ce5d368f9ef021939c13e') in 0.120643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.296167 seconds.
+  path: Assets/Materials/Green.mat
+  artifactKey: Guid(fd608ec3fe8f7fa4d92550f1267b8f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Green.mat using Guid(fd608ec3fe8f7fa4d92550f1267b8f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4a1deac090c2a4e8b980411229ab1d') in 0.020473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.772770 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(5e5643235b5f4bb4c97955e40271edd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets using Guid(5e5643235b5f4bb4c97955e40271edd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60323126e2f43358b13d01b31a508995') in 0.006339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 224.867976 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(48155601a974b864b8504154a52fb549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(48155601a974b864b8504154a52fb549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d6a9cffb52365558e2b74193b1be69') in 0.006213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.114228 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(9fb8023ae29ed724d88aa63acc46e7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(9fb8023ae29ed724d88aa63acc46e7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3795a6d5832d7594de691ad6125eb426') in 0.010555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.010545 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(808db2cce2c3eec4781cbf840dbbcf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(808db2cce2c3eec4781cbf840dbbcf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfc413ff366648f9afa00fbb3544269') in 0.006270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.004712 seconds.
+  path: Assets/PBR_Floweringot
+  artifactKey: Guid(5771f4693d102934f88f93b88594e5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Floweringot using Guid(5771f4693d102934f88f93b88594e5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3d30bcae61f06ed823d61f927c0219') in 0.006585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.127728 seconds.
+  path: Assets/PBR_Floweringot/3dobjects
+  artifactKey: Guid(8b4aa32de6cdef74e8581fd3b3305992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Floweringot/3dobjects using Guid(8b4aa32de6cdef74e8581fd3b3305992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423de65854910ea3892f8f64dc60751a') in 0.006547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109390 seconds.
   path: Assets/PBR_Floweringot/3dobjects/blumenkuebel.fbx
   artifactKey: Guid(2f66e97a51d037549a47f250801979de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR_Floweringot/3dobjects/blumenkuebel.fbx using Guid(2f66e97a51d037549a47f250801979de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0b9cdca3395bbe3ba2825f2e908e25') in 0.314956 seconds 
+Start importing Assets/PBR_Floweringot/3dobjects/blumenkuebel.fbx using Guid(2f66e97a51d037549a47f250801979de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57fa7f12d3d4c8ddc406b18f21d14d0') in 0.220615 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.126221 seconds.
+  Time since last request: 7.580854 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.006687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.239840 seconds.
+  path: Assets/XR
+  artifactKey: Guid(432e68e51b88e364fa044cc33c8f6a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(432e68e51b88e364fa044cc33c8f6a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30d368a2114ad0591e8fab126e042b6') in 0.006932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.145844 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(b3a562234c7f6fb498a3450706aaaef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(b3a562234c7f6fb498a3450706aaaef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edc6ebbbbe59b75221440b648b278c4') in 0.016397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 444.602445 seconds.
   path: Assets/PBR_Floweringot/Prefabs/flowerpot.prefab
   artifactKey: Guid(da915fba24b5e3446ba5c23ae9243acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR_Floweringot/Prefabs/flowerpot.prefab using Guid(da915fba24b5e3446ba5c23ae9243acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d69d1b4efc41c2bd371bd448fe3bfda') in 0.075193 seconds 
+Start importing Assets/PBR_Floweringot/Prefabs/flowerpot.prefab using Guid(da915fba24b5e3446ba5c23ae9243acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f428ca6549aea930986f982898ae35a') in 0.022142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.660858 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/AR-Planting-Sim-ImgTgt/ARPlantingSimQR1_scaled.jpg
+  artifactKey: Guid(ecb1f9f4f24e491a908fefc9db5e35f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/AR-Planting-Sim-ImgTgt/ARPlantingSimQR1_scaled.jpg using Guid(ecb1f9f4f24e491a908fefc9db5e35f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e890d4d4e872e8e6c0c17d323b12f860') in 0.036075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/AR-Planting-Sim-ImgTgt/ARPlantingSimQR3_scaled.jpg
+  artifactKey: Guid(95595a3cceac48ae81d37ce55cf55852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/AR-Planting-Sim-ImgTgt/ARPlantingSimQR3_scaled.jpg using Guid(95595a3cceac48ae81d37ce55cf55852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714bd880f3181ff7ad0a2b86852a7ffb') in 0.017520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1423.641042 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.007173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.404180 seconds.
+  path: Assets/GUI
+  artifactKey: Guid(adae0ca4129f10f4094108a3039a3b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI using Guid(adae0ca4129f10f4094108a3039a3b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43859579aee7161f899f73336e384ea4') in 0.006025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.672114 seconds.
+  path: Assets/GUI/Buttons
+  artifactKey: Guid(7c82a861f2eb927429a48966c5534b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI/Buttons using Guid(7c82a861f2eb927429a48966c5534b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40293227e9962cfde6008d85106ac092') in 0.006421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.464729 seconds.
+  path: Assets/GUI/Buttons/buttonClicked.png
+  artifactKey: Guid(dad5187293a3ae74c9acba4aa02c4485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI/Buttons/buttonClicked.png using Guid(dad5187293a3ae74c9acba4aa02c4485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1448c075159940bdfc8c3c7c2b49b80a') in 0.017260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.116966 seconds.
+  path: Assets/GUI/Buttons/buttonDefault.png
+  artifactKey: Guid(e59cfb47cee5d574896354f189c58c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI/Buttons/buttonDefault.png using Guid(e59cfb47cee5d574896354f189c58c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99110bb50bf0d76bc886a4381ba5009') in 0.061406 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006370 seconds.
+Registered in 0.008319 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\stuff\class\VR\Assignment\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\stuff\class\VR\Assignment\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\College\Y2S3\Virtual Reality\Clone Planting Sim\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\College\Y2S3\Virtual Reality\Clone Planting Sim\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.883 seconds
+- Completed reload, in  0.981 seconds
 Domain Reload Profiling:
-	ReloadAssembly (883ms)
-		BeginReloadAssembly (125ms)
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (681ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (731ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
+			SetupTypeCache (255ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (266ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (309ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.06 ms, found 6 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
-Unloading 3526 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (53.4 KB). Loaded Objects now: 4364.
-Memory consumption went from 129.1 MB to 129.1 MB.
-Total: 2.394400 ms (FindLiveObjects: 0.288800 ms CreateObjectMapping: 0.107800 ms MarkObjects: 1.939200 ms  DeleteObjects: 0.057700 ms)
+Refreshing native plugins compatible for Editor in 4.25 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 3563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (102.4 KB). Loaded Objects now: 4401.
+Memory consumption went from 130.6 MB to 130.5 MB.
+Total: 3.390300 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.213000 ms MarkObjects: 2.815700 ms  DeleteObjects: 0.097900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 175.807696 seconds.
+  path: Assets/GUI/Buttons/buttonDefault.png
+  artifactKey: Guid(e59cfb47cee5d574896354f189c58c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI/Buttons/buttonDefault.png using Guid(e59cfb47cee5d574896354f189c58c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3512992cf8dc18c275f5b95db569940c') in 0.098628 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008370 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\College\Y2S3\Virtual Reality\Clone Planting Sim\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\College\Y2S3\Virtual Reality\Clone Planting Sim\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1262ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.87 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 3563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (53.7 KB). Loaded Objects now: 4405.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 4.022900 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.313500 ms MarkObjects: 3.360200 ms  DeleteObjects: 0.059400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009011 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\College\Y2S3\Virtual Reality\Clone Planting Sim\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\College\Y2S3\Virtual Reality\Clone Planting Sim\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Domain Reload Profiling:
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (637ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.43 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 3563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (53.8 KB). Loaded Objects now: 4409.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 3.194100 ms (FindLiveObjects: 0.302800 ms CreateObjectMapping: 0.124800 ms MarkObjects: 2.694700 ms  DeleteObjects: 0.070800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
