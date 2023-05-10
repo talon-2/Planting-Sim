@@ -1,0 +1,272 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Acer/OneDrive/Documents/GitHub/Planting-Sim
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58477
+Successfully changed project path to: C:/Users/Acer/OneDrive/Documents/GitHub/Planting-Sim
+C:/Users/Acer/OneDrive/Documents/GitHub/Planting-Sim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13144] Host "[IP] 192.168.100.73 [Port] 0 [Flags] 2 [Guid] 195632346 [EditorId] 195632346 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EG92RE2M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13144] Host "[IP] 192.168.100.73 [Port] 0 [Flags] 2 [Guid] 195632346 [EditorId] 195632346 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EG92RE2M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 112.56 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 5.37 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Acer/OneDrive/Documents/GitHub/Planting-Sim/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009422 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.19 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1036ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (371ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.073267 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Acer\OneDrive\Documents\GitHub\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Acer\OneDrive\Documents\GitHub\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 119.19 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.37 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  2.105 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2106ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1782ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (664ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (787ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (454ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 3593 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (87.5 KB). Loaded Objects now: 4350.
+Memory consumption went from 128.2 MB to 128.1 MB.
+Total: 4.930500 ms (FindLiveObjects: 0.281600 ms CreateObjectMapping: 0.136000 ms MarkObjects: 4.350800 ms  DeleteObjects: 0.158200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52808.442049 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7deb135b04202b7925d0fc2015fe24e8') in 0.012453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2420.656823 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Groundplants 1_DGroundplants 1_N2023054508611406.terrainlayer
+  artifactKey: Guid(c4b12c4344afee941957dcf756d37373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Groundplants 1_DGroundplants 1_N2023054508611406.terrainlayer using Guid(c4b12c4344afee941957dcf756d37373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65c38f285dbb36b89aacaecf96fc9df') in 0.116872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.439303 seconds.
+  path: Assets/Editor/Migration
+  artifactKey: Guid(784c1ed2aa16453488a41efb0eeae8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Migration using Guid(784c1ed2aa16453488a41efb0eeae8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c81aeb7e23c53a27e19793ad8f1ef67') in 0.004570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.210747 seconds.
+  path: Assets/Materials/buds.mat
+  artifactKey: Guid(c2dff42f2e8ac1a40b7f610f28a883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/buds.mat using Guid(c2dff42f2e8ac1a40b7f610f28a883ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb658fbd7945cc15e6f40185196041a1') in 0.373578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/YellowGreen.mat
+  artifactKey: Guid(e20743861ed2d9d408630abd6b080b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/YellowGreen.mat using Guid(e20743861ed2d9d408630abd6b080b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43769e35e9f1e3056fc63fb2d5199bf') in 0.013784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.512891 seconds.
+  path: Assets/PBR_Floweringot/Prefabs
+  artifactKey: Guid(c4c24eed466a9de4f8a1d1fd985d6941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Floweringot/Prefabs using Guid(c4c24eed466a9de4f8a1d1fd985d6941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef27c5edcf229d8d1453f1768e4bd9ee') in 0.005468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063587 seconds.
+  path: Assets/PBR_Floweringot/Prefabs/flowerpot.prefab
+  artifactKey: Guid(da915fba24b5e3446ba5c23ae9243acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Floweringot/Prefabs/flowerpot.prefab using Guid(da915fba24b5e3446ba5c23ae9243acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61063afe8806cfdb01f783c569a8d4b') in 0.286968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.156817 seconds.
+  path: Assets/PBR_Floweringot/3dobjects
+  artifactKey: Guid(8b4aa32de6cdef74e8581fd3b3305992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Floweringot/3dobjects using Guid(8b4aa32de6cdef74e8581fd3b3305992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423de65854910ea3892f8f64dc60751a') in 0.004434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039698 seconds.
+  path: Assets/PBR_Floweringot/3dobjects/blumenkuebel.fbx
+  artifactKey: Guid(2f66e97a51d037549a47f250801979de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Floweringot/3dobjects/blumenkuebel.fbx using Guid(2f66e97a51d037549a47f250801979de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18b35e18a0daba089cbe5c2cec00131') in 0.052885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.148905 seconds.
+  path: Assets/PBR_Floweringot/3dobjects/Materials
+  artifactKey: Guid(2ce038344d933884ca0e4ddb135d97c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Floweringot/3dobjects/Materials using Guid(2ce038344d933884ca0e4ddb135d97c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae6854cef0d89c9e9a6293d8c063a6d') in 0.003716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057571 seconds.
+  path: Assets/PBR_Floweringot/3dobjects/Materials/blumenkuebel.mat
+  artifactKey: Guid(508a9f4117e7bbd48a4041f6f6d65794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Floweringot/3dobjects/Materials/blumenkuebel.mat using Guid(508a9f4117e7bbd48a4041f6f6d65794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b0990f608239e4a87cc18adefe3d07') in 0.018023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.288230 seconds.
+  path: Assets/PBR_Floweringot/Scripts/CameraFreeflight.cs
+  artifactKey: Guid(60645d01e5691c74c922b6009e4c3dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Floweringot/Scripts/CameraFreeflight.cs using Guid(60645d01e5691c74c922b6009e4c3dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc53794901858a402fb332267450323') in 0.018445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.425970 seconds.
+  path: Assets/PBR_Floweringot/Scripts/TestEchoScript.cs
+  artifactKey: Guid(ca69c9f6e46aa4f4a94843518aabd398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Floweringot/Scripts/TestEchoScript.cs using Guid(ca69c9f6e46aa4f4a94843518aabd398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1ecf204623e34dee607e3dd9d99f6b') in 0.003684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.305199 seconds.
+  path: Assets/PlantModels/FloweringPlants
+  artifactKey: Guid(2f7f159fffd55ba45a5bdcd89ebda255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants using Guid(2f7f159fffd55ba45a5bdcd89ebda255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ecfc4b9d541705852b8c9ab6e8c16a') in 0.004271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.676932 seconds.
+  path: Assets/PlantModels/Herbs
+  artifactKey: Guid(372f3b856eeaf0040857706e33f6ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs using Guid(372f3b856eeaf0040857706e33f6ab5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8807e0915e55f030ccdafcda831a2aac') in 0.003726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.076786 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(9fb8023ae29ed724d88aa63acc46e7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(9fb8023ae29ed724d88aa63acc46e7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8237e708df48478593afb087a18f5b8') in 0.009489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.213153 seconds.
+  path: Assets/Thaleah_PixelFont/ThaleahFat.fontsettings
+  artifactKey: Guid(652f7165b7c30ab46af6c4aad90a639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thaleah_PixelFont/ThaleahFat.fontsettings using Guid(652f7165b7c30ab46af6c4aad90a639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eda1750a2084e920883deb3c94a2e22') in 0.007185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.767139 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(b3a562234c7f6fb498a3450706aaaef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(b3a562234c7f6fb498a3450706aaaef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edc6ebbbbe59b75221440b648b278c4') in 0.015927 seconds 
