@@ -276,3 +276,38 @@ Received Import Request.
   path: Assets/PlantModels/Vegetables/Turnip/Turnip.jpg
   artifactKey: Guid(58c956e7ba06620438d0638eb99647e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/PlantModels/Vegetables/Turnip/Turnip.jpg using Guid(58c956e7ba06620438d0638eb99647e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8ebd9ca06420f39b9dba1bbfe182e7') in 0.024225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2162.265562 seconds.
+  path: Assets/PlantModels/Herbs/Mint/Extras/Half_Mint.prefab
+  artifactKey: Guid(7fa3ca6fd8bc72544aa2660a45a01f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Mint/Extras/Half_Mint.prefab using Guid(7fa3ca6fd8bc72544aa2660a45a01f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8800cb6aea2210f75af882893d00863c') in 0.052012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 992.155848 seconds.
+  path: Assets/PlantModels/Vegetables/Corn 1/Extras/corn_texture.png
+  artifactKey: Guid(1992369e9bbf03b4db8f3e02a23f625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn 1/Extras/corn_texture.png using Guid(1992369e9bbf03b4db8f3e02a23f625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8633586f21d3d2b29d4076ebf91d2a7') in 0.042089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PlantModels/Vegetables/Corn 1/Extras/Default_corn.mat
+  artifactKey: Guid(cb5677385ba7c7a4dbe0b9e8c0e62112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn 1/Extras/Default_corn.mat using Guid(cb5677385ba7c7a4dbe0b9e8c0e62112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb9bc7b6c67b0240ef7b005598633d5') in 0.028184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PlantModels/Vegetables/Corn 1/Extras/unripe_corn.mat
+  artifactKey: Guid(e1b912267f564654eb40b437b510d369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn 1/Extras/unripe_corn.mat using Guid(e1b912267f564654eb40b437b510d369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36d533e16d0cbd64249ba81094904c8') in 0.023188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/PlantModels/Vegetables/Corn 1/Extras/Full_corn.fbx
+  artifactKey: Guid(d0f4e0d5df979ef4a84bfba12397cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn 1/Extras/Full_corn.fbx using Guid(d0f4e0d5df979ef4a84bfba12397cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636b38733cb8682226fa15f58fa03fa9') in 0.046327 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
