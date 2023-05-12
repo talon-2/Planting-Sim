@@ -23,7 +23,18 @@ public class InGameUIController : MonoBehaviour
     public GameObject inGamePanel;
 
     bool hideUI = false;
-    bool showShop = false;
+
+    void Update()
+    {
+        if (ShopMenuController.boughtSmtg)
+        {
+            CloseShopBtn();
+            ShopMenuController.boughtSmtg = false;
+            //check for item = shopMenuController.boughtItem;
+            //then when tap on a pot, plant it.
+            //set boughtSmtg back to false after plant;
+        }
+    }
 
     public void HideUIBtn()
     {
@@ -53,22 +64,16 @@ public class InGameUIController : MonoBehaviour
 
     }
 
-    public void ShopBtn()
+    public void OpenShopBtn()
     {
-        if (showShop)
-        {
-            shopMenuAnimator.SetTrigger("CloseShop");
-            inGamePanel.SetActive(true);
-            shopPanel.SetActive(false);
-        }
-        else
-        {
-            shopMenuAnimator.SetTrigger("OpenShop");
-            inGamePanel.SetActive(false);
-            shopPanel.SetActive(true);
-        }
+        shopMenuAnimator.SetTrigger("OpenShop");
+        inGamePanel.SetActive(false);
+
     }
-
-
+    public void CloseShopBtn()
+    {
+        shopMenuAnimator.SetTrigger("CloseShop");
+        inGamePanel.SetActive(true);
+    }
 
 }
