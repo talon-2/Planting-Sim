@@ -1,0 +1,458 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/College/Y2S3/Virtual Reality/Clone Planting Sim/Planting-Sim
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55080
+Successfully changed project path to: C:/College/Y2S3/Virtual Reality/Clone Planting Sim/Planting-Sim
+C:/College/Y2S3/Virtual Reality/Clone Planting Sim/Planting-Sim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27404] Host "[IP] 192.168.0.124 [Port] 0 [Flags] 2 [Guid] 3618204748 [EditorId] 3618204748 [Version] 1048832 [Id] WindowsEditor(7,Zully) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27404] Host "[IP] 192.168.0.124 [Port] 0 [Flags] 2 [Guid] 3618204748 [EditorId] 3618204748 [Version] 1048832 [Id] WindowsEditor(7,Zully) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 94.32 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 3.33 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/College/Y2S3/Virtual Reality/Clone Planting Sim/Planting-Sim/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   30.0.15.1274
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005185 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 85.87 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.681 seconds
+Domain Reload Profiling:
+	ReloadAssembly (682ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (478ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011014 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\College\Y2S3\Virtual Reality\Clone Planting Sim\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\College\Y2S3\Virtual Reality\Clone Planting Sim\Planting-Sim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.71 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.229 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1230ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1010ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (301ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 3594 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (87.6 KB). Loaded Objects now: 4366.
+Memory consumption went from 141.1 MB to 141.0 MB.
+Total: 3.711800 ms (FindLiveObjects: 0.318300 ms CreateObjectMapping: 0.311900 ms MarkObjects: 2.849100 ms  DeleteObjects: 0.231300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 110697.221902 seconds.
+  path: Assets/PlantModels/FloweringPlants/Sunflower/10455_Sunflower_v1_Diffuse.jpg
+  artifactKey: Guid(155160261bda26c47a9435faaeac7934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Sunflower/10455_Sunflower_v1_Diffuse.jpg using Guid(155160261bda26c47a9435faaeac7934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196c09ae48f589dac0c5fe8fefac3523') in 0.119753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 99.388350 seconds.
+  path: Assets/PlantModels/Herbs/Thyme/Full_Thyme.prefab
+  artifactKey: Guid(f83e8c52ea9859242950a22715a6cd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Thyme/Full_Thyme.prefab using Guid(f83e8c52ea9859242950a22715a6cd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d88607757716bbeefcf51912e8f859') in 0.217430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PlantModels/Herbs/Thyme/Thyme_atlas_normal.png
+  artifactKey: Guid(2bcf72100e84c3848b84d5e7ad3d1bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Thyme/Thyme_atlas_normal.png using Guid(2bcf72100e84c3848b84d5e7ad3d1bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b2153313ebad79dff5e563d33c0277') in 0.034181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PlantModels/Herbs/Thyme/Thyme_atlas_color.png
+  artifactKey: Guid(d34f64057bc57d747ad37a7ae93d7636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Thyme/Thyme_atlas_color.png using Guid(d34f64057bc57d747ad37a7ae93d7636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173876c7aa4fdca2e0992fb98360053c') in 0.024050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.686315 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Full_Rosemary.prefab
+  artifactKey: Guid(e3c31804db89c564281c30f457c033e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Full_Rosemary.prefab using Guid(e3c31804db89c564281c30f457c033e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbd5c7234698ac1e98a704296ffcee0') in 0.062257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Rau Om.obj
+  artifactKey: Guid(9b270ae00808e3d4485cf34f8ece4834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Rau Om.obj using Guid(9b270ae00808e3d4485cf34f8ece4834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ee617cc5bbb9369a5d28645dcdc7b9') in 0.099263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 674.105078 seconds.
+  path: Assets/PlantModels/Vegetables/Cabbage/Full_Cabbage.prefab
+  artifactKey: Guid(d99aedb75e1e1f4489a30d86f4e8d85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Cabbage/Full_Cabbage.prefab using Guid(d99aedb75e1e1f4489a30d86f4e8d85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ac02929eda7e035ed4ab0d43d06448') in 0.069515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.053389 seconds.
+  path: Assets/PlantModels/Vegetables/Corn/corn_texture.png
+  artifactKey: Guid(f7403a078c71cd44b988ae29580a6e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn/corn_texture.png using Guid(f7403a078c71cd44b988ae29580a6e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41a025febb1b115fd4ee1ba860ccd32') in 0.018430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.367050 seconds.
+  path: Assets/PlantModels/Vegetables/Corn/corn_white.png
+  artifactKey: Guid(d6946fde5d814dd4b8025d11679d4a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn/corn_white.png using Guid(d6946fde5d814dd4b8025d11679d4a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6cf37963ce4504a20c3afa94df856f') in 0.013219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.766343 seconds.
+  path: Assets/PlantModels/Vegetables/Tomato/Tomato.obj
+  artifactKey: Guid(8286aab577d50bc46905fb6d3636de21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Tomato/Tomato.obj using Guid(8286aab577d50bc46905fb6d3636de21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77488cb0114fb336448d2f6ecbbc69d') in 0.073844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.102662 seconds.
+  path: Assets/PlantModels/Vegetables/Turnip/Full_Turnip.prefab
+  artifactKey: Guid(4657d95f6ae3e7c409ea2cff1d8f04ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Turnip/Full_Turnip.prefab using Guid(4657d95f6ae3e7c409ea2cff1d8f04ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147231eab2c32c67b591eba6fe2e1bda') in 0.042136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.702260 seconds.
+  path: Assets/PlantModels/Vegetables/Turnip/TurnipMaterial.mat
+  artifactKey: Guid(cc69a4bb0c96ace4e9d3945663db63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Turnip/TurnipMaterial.mat using Guid(cc69a4bb0c96ace4e9d3945663db63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37fa1a8257a52c9bcaf0ba4fb99a5e2') in 0.016706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 126.617914 seconds.
+  path: Assets/PlantModels/Vegetables/Tomato/TEXTURE_Tomato_Leaf.png
+  artifactKey: Guid(5af6c8fb5d6d7c448a6f484ca3bc3583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Tomato/TEXTURE_Tomato_Leaf.png using Guid(5af6c8fb5d6d7c448a6f484ca3bc3583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73792e4d255c75fbd6149560d6a94dc3') in 0.016323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.234287 seconds.
+  path: Assets/PlantModels/Vegetables/Tomato/TomatoLeaf.mat
+  artifactKey: Guid(c74198fd25ced694ebe9d985fbf77456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Tomato/TomatoLeaf.mat using Guid(c74198fd25ced694ebe9d985fbf77456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e075631b18b0c9425a3ffebf2f49bb82') in 0.014716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.899643 seconds.
+  path: Assets/PlantModels/Vegetables/Cucumber/cucumber_unwrap 1k.jpg
+  artifactKey: Guid(57ded3f9c7bddd646a5ded1c1014a776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Cucumber/cucumber_unwrap 1k.jpg using Guid(57ded3f9c7bddd646a5ded1c1014a776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0870c8eea121c913ed3dc4fa6bc4a5d') in 0.027280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.341166 seconds.
+  path: Assets/PlantModels/Vegetables/Cucumber/download.jpg
+  artifactKey: Guid(a91c5426e6d5750478ced1c62b404dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Cucumber/download.jpg using Guid(a91c5426e6d5750478ced1c62b404dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ae0ba716c1bbef6a08ae70f78c48af') in 0.014596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 214.160828 seconds.
+  path: Assets/PlantModels/Vegetables/Cucumber/Cucumber.mat
+  artifactKey: Guid(2f4ff298261380347aaa8ae389f08048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Cucumber/Cucumber.mat using Guid(2f4ff298261380347aaa8ae389f08048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09df836adc66ab4aa01bf44e7c1c15e') in 0.018647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.190522 seconds.
+  path: Assets/PlantModels/Vegetables/Cucumber/lead.mat
+  artifactKey: Guid(6c8914de5be86d044b5b697945ccd7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Cucumber/lead.mat using Guid(6c8914de5be86d044b5b697945ccd7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f069f9f4f36163bd0ad47d8ea42b731f') in 0.019985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.495592 seconds.
+  path: Assets/PlantModels/Vegetables/Cucumber/cucumberLeaf.mat
+  artifactKey: Guid(6c8914de5be86d044b5b697945ccd7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Cucumber/cucumberLeaf.mat using Guid(6c8914de5be86d044b5b697945ccd7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff3a079798e25bf15675df8259284df') in 0.015450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.472468 seconds.
+  path: Assets/PlantModels/Vegetables/Tomato/red.mat
+  artifactKey: Guid(f98fcba2e1a6a9f45a48a56426128817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Tomato/red.mat using Guid(f98fcba2e1a6a9f45a48a56426128817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5d65b72f9ec980b75d9665b9be0317') in 0.016379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.473401 seconds.
+  path: Assets/PlantModels/Vegetables/Tomato/Extras
+  artifactKey: Guid(10891495527b5484593108004d918088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Tomato/Extras using Guid(10891495527b5484593108004d918088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2915665af3f2f74b60be0f829407df0') in 0.009309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.772213 seconds.
+  path: Assets/PlantModels/Vegetables/Tomato/Full_Tomato.prefab
+  artifactKey: Guid(8879a9040c6235d4ca25be67e6c9fcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Tomato/Full_Tomato.prefab using Guid(8879a9040c6235d4ca25be67e6c9fcc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec3d1362130d885b9b407375ef210dd') in 0.021491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 291.085546 seconds.
+  path: Assets/PlantModels/FloweringPlants/Cornflower/Full_CornFlower.prefab
+  artifactKey: Guid(442da30a965504b47ba2c2083ed496f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Cornflower/Full_CornFlower.prefab using Guid(442da30a965504b47ba2c2083ed496f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4decafe71f8a80f861b684189bf787b') in 0.046864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.504754 seconds.
+  path: Assets/PlantModels/FloweringPlants/Lavender/Extras
+  artifactKey: Guid(f7aaa2a92a63bbf4ca6185b19df47dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Lavender/Extras using Guid(f7aaa2a92a63bbf4ca6185b19df47dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a496d1dd545d81b2d1906632a0e50779') in 0.002096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.513133 seconds.
+  path: Assets/PlantModels/FloweringPlants/Lavender/Full_Lavender.prefab
+  artifactKey: Guid(6818095946379f445ac058f1f4490dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Lavender/Full_Lavender.prefab using Guid(6818095946379f445ac058f1f4490dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a454efe2f2e3bbda37d460fcf09e4d0a') in 0.090521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.507641 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Extras
+  artifactKey: Guid(d5b4cc38fb4ad4c4bb85204a4d1dfd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Extras using Guid(d5b4cc38fb4ad4c4bb85204a4d1dfd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030b968aafb700168a2304b469ece92c') in 0.002481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.826128 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Flower Buds_mm.mtl
+  artifactKey: Guid(78e450684c66b054e968885211a61f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Flower Buds_mm.mtl using Guid(78e450684c66b054e968885211a61f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa72fdb4915a6e93a7ac04bdcb24b41') in 0.017720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.587021 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Extras/Full_Marigold.fbx
+  artifactKey: Guid(43a5901eda1305e4eaf42eb552bd3991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Extras/Full_Marigold.fbx using Guid(43a5901eda1305e4eaf42eb552bd3991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3070b4dd174746b736dd074f409e557') in 0.054641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.057351 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Extras/Extras
+  artifactKey: Guid(cbb044d4d5e65da40a123f1a71f3313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Extras/Extras using Guid(cbb044d4d5e65da40a123f1a71f3313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b711e26ea8b44fbb9f7c76a0edf8b2') in 0.001970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.876309 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Extras/Extras/Full_Marigold.fbx
+  artifactKey: Guid(43a5901eda1305e4eaf42eb552bd3991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Extras/Extras/Full_Marigold.fbx using Guid(43a5901eda1305e4eaf42eb552bd3991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ae144bccec5eeae5daa264d301d89b') in 0.035588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.816603 seconds.
+  path: Assets/PlantModels/FloweringPlants/Marigold/Full_Marigold.prefab
+  artifactKey: Guid(15b7535f87c80af4f9b1edd23c0fb3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Marigold/Full_Marigold.prefab using Guid(15b7535f87c80af4f9b1edd23c0fb3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94719601449d2da69ce7c24a31ce185c') in 0.022373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.222596 seconds.
+  path: Assets/PlantModels/FloweringPlants/Sunflower/Extras
+  artifactKey: Guid(7b7dc655fe590c94a98a1cafcda4e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Sunflower/Extras using Guid(7b7dc655fe590c94a98a1cafcda4e9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e41d6559b1df061cc3736c37ba6d9c') in 0.005460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.855420 seconds.
+  path: Assets/PlantModels/FloweringPlants/Sunflower/Full_Sunflower.prefab
+  artifactKey: Guid(1d1d73a3ff5c37b46a8bd0856e0e1f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/FloweringPlants/Sunflower/Full_Sunflower.prefab using Guid(1d1d73a3ff5c37b46a8bd0856e0e1f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a572008c159bdeaec145d88d0829e42') in 0.019705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.336434 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Extras
+  artifactKey: Guid(20e51405ef0732a4ab08646c1b5d4da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Extras using Guid(20e51405ef0732a4ab08646c1b5d4da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c269fa0f9c1cf36873e98bfdf24964') in 0.002008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.293047 seconds.
+  path: Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab
+  artifactKey: Guid(4ddc55258ec1fab44920fe80b5020e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Cilantro/Full_Cilantro.prefab using Guid(4ddc55258ec1fab44920fe80b5020e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb43911a2169b4a099c3d6faed97846') in 0.031859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.191297 seconds.
+  path: Assets/PlantModels/Herbs/Mint/Extras
+  artifactKey: Guid(9998a7fce95a2a64795ecc8289b00484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Mint/Extras using Guid(9998a7fce95a2a64795ecc8289b00484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd54c0ae00aa8ddcaed2879c48315620') in 0.002288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.963555 seconds.
+  path: Assets/PlantModels/Herbs/Mint/Full_Mint.prefab
+  artifactKey: Guid(6cf996baa59c545408612288bb01970b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Mint/Full_Mint.prefab using Guid(6cf996baa59c545408612288bb01970b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad3d3bbee7620b8416127c7e4384c6c') in 0.041187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.410202 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Extras
+  artifactKey: Guid(c51e6ed52d038394696de25c51583791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Extras using Guid(c51e6ed52d038394696de25c51583791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfda2ca13b4cedc97a5032053dea685') in 0.002434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.209455 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Materials
+  artifactKey: Guid(0737f7d7f24c0d44bb4c9b948cba05b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Materials using Guid(0737f7d7f24c0d44bb4c9b948cba05b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efed887f148bfd6c7bdbb2d819d51e58') in 0.013192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.910615 seconds.
+  path: Assets/PlantModels/Herbs/Rosemary/Full_Rosemary.prefab
+  artifactKey: Guid(f679801106df224429a165d87d8ab8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Rosemary/Full_Rosemary.prefab using Guid(f679801106df224429a165d87d8ab8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b4ca389b6b8accd40c2cadd2340ee4') in 0.018005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.836580 seconds.
+  path: Assets/PlantModels/Herbs/Thyme/Full_Thyme.prefab
+  artifactKey: Guid(37d72ae21e32b7c45aa4e33f1de862e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Herbs/Thyme/Full_Thyme.prefab using Guid(37d72ae21e32b7c45aa4e33f1de862e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7511d58a62a3aad566230f38ae58ba0d') in 0.039123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.588017 seconds.
+  path: Assets/PlantModels/Vegetables/Cabbage/Full_Cabbage.prefab
+  artifactKey: Guid(dcfc653d2f2a6c644bc2b80721cdf77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Cabbage/Full_Cabbage.prefab using Guid(dcfc653d2f2a6c644bc2b80721cdf77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8f12b4f2f319ccd26d3bd4a5f256e8') in 0.024805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.883562 seconds.
+  path: Assets/PlantModels/Vegetables/Corn/Extras
+  artifactKey: Guid(c1db0651e95f41c4885ab28cc4cab708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn/Extras using Guid(c1db0651e95f41c4885ab28cc4cab708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf6abc1f8357a58164944aa3413f82e') in 0.002068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.251893 seconds.
+  path: Assets/PlantModels/Vegetables/Corn/Extras/Default_corn.mat
+  artifactKey: Guid(bd4e7002cadce1c4394bab2cf80aeddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn/Extras/Default_corn.mat using Guid(bd4e7002cadce1c4394bab2cf80aeddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9432c966a588f075828de6d6ceb7e2a') in 0.016813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.905439 seconds.
+  path: Assets/PlantModels/Vegetables/Corn/Extras/unripe_corn.mat
+  artifactKey: Guid(83fcfa5b790f6b14ca4e41cc1b311ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn/Extras/unripe_corn.mat using Guid(83fcfa5b790f6b14ca4e41cc1b311ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ddabde5b2d458ef51b2ffb00487138') in 0.015281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.082522 seconds.
+  path: Assets/PlantModels/Vegetables/Cucumber/Extras
+  artifactKey: Guid(2f35deba5a88ee84cbce03bb5525283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Cucumber/Extras using Guid(2f35deba5a88ee84cbce03bb5525283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87946d60c85958f338baa095d0a65b9') in 0.002032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.726581 seconds.
+  path: Assets/PlantModels/Vegetables/Cucumber/Full_Cucumber.prefab
+  artifactKey: Guid(64d0ba34529d3124b9c7aa0928f191d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Cucumber/Full_Cucumber.prefab using Guid(64d0ba34529d3124b9c7aa0928f191d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11aa2528c1991c94bce249a5c2ef5232') in 0.026110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.648372 seconds.
+  path: Assets/PlantModels/Vegetables/Turnip/Full_Turnip.prefab
+  artifactKey: Guid(5dd8b7bb1d1c6fa49be7589221594ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Turnip/Full_Turnip.prefab using Guid(5dd8b7bb1d1c6fa49be7589221594ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a8ffcb5332fc7100950d2d53c36e41') in 0.021783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.087469 seconds.
+  path: Assets/PlantModels/Vegetables/Corn/Full_Corn.prefab
+  artifactKey: Guid(dbdf786396569594ca9ddad9be548b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlantModels/Vegetables/Corn/Full_Corn.prefab using Guid(dbdf786396569594ca9ddad9be548b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea5520cefe5cb23a3aed368bd75120f') in 0.015056 seconds 
