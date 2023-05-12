@@ -25,14 +25,12 @@ public class InGameUIController : MonoBehaviour
             hideShopAnim.Play("HideShopAnim");
             hideFertilizeAnim.Play("HideFertilizeAnim");
 
-
             hideUI = true;
         }
         else
         {
             hideUI = false;
         }
-
     }
     public void FertilizeBtn()
     {
