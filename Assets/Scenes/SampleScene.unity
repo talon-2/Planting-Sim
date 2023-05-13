@@ -420,6 +420,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1773963065}
+  - {fileID: 635051745}
+  - {fileID: 1529437379}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -741,7 +743,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8808214653859070342, guid: da915fba24b5e3446ba5c23ae9243acc, type: 3}
       propertyPath: m_TagString
-      value: FlowerPot
+      value: FlowerPotObject
       objectReference: {fileID: 0}
     - target: {fileID: 8808214653859437990, guid: da915fba24b5e3446ba5c23ae9243acc, type: 3}
       propertyPath: m_RootOrder
@@ -8764,7 +8766,7 @@ GameObject:
   - component: {fileID: 1773963065}
   m_Layer: 0
   m_Name: TempPot
-  m_TagString: Untagged
+  m_TagString: FlowerPot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8784,118 +8786,6 @@ Transform:
   - {fileID: 134621124}
   m_Father: {fileID: 77101903}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1783645257
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1783645262}
-  - component: {fileID: 1783645261}
-  - component: {fileID: 1783645260}
-  - component: {fileID: 1783645259}
-  - component: {fileID: 1783645258}
-  m_Layer: 0
-  m_Name: ARCamera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1783645258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783645257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c47f92041efbb4b429a4eafca855ebe3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1783645259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783645257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1826476478, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mWorldCenterMode: 2
-  mWorldCenter: {fileID: 0}
---- !u!81 &1783645260
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783645257}
-  m_Enabled: 1
---- !u!20 &1783645261
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783645257}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.05
-  far clip plane: 5000
-  field of view: 50
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 0
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1783645262
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783645257}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1813681839
 GameObject:
@@ -10027,7 +9917,7 @@ RectTransform:
   - {fileID: 912924257}
   - {fileID: 795835875}
   m_Father: {fileID: 271584466}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -10570,16 +10460,16 @@ MonoBehaviour:
   thymeBtn: {fileID: 119436989}
   rosemaryBtn: {fileID: 1308947878}
   mintBtn: {fileID: 1928013410}
-  halfCornPrefab: {fileID: 2566525114250692727, guid: a7b340d858cdeba4cb3026b98aca71ea, type: 3}
-  halfCucumberPrefab: {fileID: 4466266894157433137, guid: 10ab3538cb74a62489277f3d433bce75, type: 3}
-  halfTomatoPrefab: {fileID: 198516515326448892, guid: 01824aaa775773c49a5cf2c655a643d5, type: 3}
-  halfTurnipPrefab: {fileID: 2562112579010004188, guid: edd0f7205dc772c48b8a0b781e95f807, type: 3}
-  halfCabbagePrefab: {fileID: 3916548190617212184, guid: a25ca6dd46d2119449539714bc16e87d, type: 3}
-  halfSunflowerPrefab: {fileID: 1112909321037257737, guid: 5041a1b38b701bc459af7d1436db1041, type: 3}
-  halfMarigoldPrefab: {fileID: 5895040354461583682, guid: 6cd45d4e66ad1f34bb77fab824f0364e, type: 3}
-  halfLavenderPrefab: {fileID: 2202020973141626098, guid: c211185ff305cc44b9952bb479819019, type: 3}
-  halfConeflowerPrefab: {fileID: 857806451488409430, guid: 4f417fb160e60674a85449c14b7aa56d, type: 3}
-  halfCilantroPrefab: {fileID: 7347919710996523488, guid: 4135727d24c6789469473595cd4cf91b, type: 3}
-  halfThymePrefab: {fileID: 7636316093903868744, guid: d5c3b9f808ded2a41be18ad253c9a84d, type: 3}
-  halfRosemaryPrefab: {fileID: 6148401080635734668, guid: 9ff8063fbf185c24db72f86dd8bc476b, type: 3}
-  halfMintPrefab: {fileID: 906943465887042383, guid: b32131e76f5ab6b4b9e4f3bde894f7da, type: 3}
+  halfCornPrefab: {fileID: 1068239333070613211, guid: 7200f20cb9fcf5146b605d82f2b0f6b8, type: 3}
+  halfCucumberPrefab: {fileID: 3311417236566111856, guid: 1c8d77238559aec48aba503f522dc4a1, type: 3}
+  halfTomatoPrefab: {fileID: 685553972720861643, guid: 074f0ed2f877f644c9c5d38b356ecba0, type: 3}
+  halfTurnipPrefab: {fileID: 1382484661144717374, guid: 175aa82ef692fb14192104b9f7f7f255, type: 3}
+  halfCabbagePrefab: {fileID: 6530619057931498408, guid: ab045796afb613a439eb0345a347f3cb, type: 3}
+  halfSunflowerPrefab: {fileID: 9109312753457749517, guid: 17e83c198c6ba234caeba7afbf6e61eb, type: 3}
+  halfMarigoldPrefab: {fileID: 8696605775718220593, guid: 98c8a43e6f2cc8046955cca168674c28, type: 3}
+  halfLavenderPrefab: {fileID: 2071905588354640897, guid: bfe2be710715b0a4494bfaf0bd433bff, type: 3}
+  halfConeflowerPrefab: {fileID: 8883219861778660899, guid: 1f5388c4ced62154fbd91cbd22bd0771, type: 3}
+  halfCilantroPrefab: {fileID: 3310550168152973742, guid: 3e3d28c1f2233fc489b16b73c2f8f2e4, type: 3}
+  halfThymePrefab: {fileID: 331488145889851314, guid: 4b63921c63834b445adefaa03c16458d, type: 3}
+  halfRosemaryPrefab: {fileID: 2250560452962616357, guid: 040d8602e7febad428dbcc4a0ea1e519, type: 3}
+  halfMintPrefab: {fileID: 3490684770761787546, guid: b5da02aed6e051a4fb1cdb6c866f665f, type: 3}

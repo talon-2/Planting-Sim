@@ -64,14 +64,14 @@ public class ShopMenuController : MonoBehaviour
     string dollarSign = "$";
     InGameUIController gameUIController;
     GameObject flowerPot;
-    string pot = "FlowerPot";
     GameObject instantiatedPlant;
-    
+    GameObject tempPot;
 
     void Start()
     {
         gameUIController = GetComponent<InGameUIController>();
-        flowerPot = GameObject.FindGameObjectWithTag(pot);
+        flowerPot = GameObject.FindGameObjectWithTag("FlowerPot");
+        tempPot = GameObject.FindGameObjectWithTag("FlowerPotObject");
     }
 
     void Update()
@@ -80,7 +80,9 @@ public class ShopMenuController : MonoBehaviour
         Debug.Log(boughtSmtg + ", " + plantAmt) ;
         if(boughtSmtg && plantAmt <= plantLimit)
         {
-            instantiatedPlant.transform.localPosition = new Vector3(0f, 0.85f, -0.1f);
+            tempPot.SetActive(false);
+            Destroy(tempPot);
+            //instantiatedPlant.transform.localPosition = new Vector3(0f, 0.85f, -0.1f);
             //instantiatedPlant.transform.localScale = new Vector3(1f, 1f, 1f);
             boughtSmtg = false;
         }
@@ -246,5 +248,4 @@ public class ShopMenuController : MonoBehaviour
             boughtSmtg = true;
         }
     }
-
 }
