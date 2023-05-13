@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class ShopMenuController : MonoBehaviour
 {
+    [Header("Plant Limit")]
+    public int plantLimit = 1;
+
     [Header("Money")]
     public Text cashAmt;
     public float moneyAmt = 1000;
@@ -38,36 +41,49 @@ public class ShopMenuController : MonoBehaviour
     public GameObject rosemaryBtn;
     public GameObject mintBtn;
 
-    string corn = "Corn";
-    string cucumber = "Cucumber";
-    string tomato = "Tomato";
-    string turnip = "Turnip";
-    string cabbage = "Cabbage";
-    string sunflower = "Sunflower";
-    string marigold = "Marigold";
-    string lavender = "Lavender";
-    string coneflower = "Coneflower";
-    string cilantro = "Cilantro";
-    string thyme = "Thyme";
-    string rosemary = "Rosemary";
-    string mint = "Mint";
+    [Header("Plants Prefab")]
+    public GameObject halfCornPrefab;
+    public GameObject halfCucumberPrefab;
+    public GameObject halfTomatoPrefab;
+    public GameObject halfTurnipPrefab;
+    public GameObject halfCabbagePrefab;
+    public GameObject halfSunflowerPrefab;
+    public GameObject halfMarigoldPrefab;
+    public GameObject halfLavenderPrefab;
+    public GameObject halfConeflowerPrefab;
+    public GameObject halfCilantroPrefab;
+    public GameObject halfThymePrefab;
+    public GameObject halfRosemaryPrefab;
+    public GameObject halfMintPrefab;
 
-    public static string boughtItem;
+
+    int plantAmt;
+    //public static string boughtItem;
     public static bool boughtSmtg = false;
     string boughtPlant;
     string dollarSign = "$";
     InGameUIController gameUIController;
+    GameObject flowerPot;
+    string pot = "FlowerPot";
+    GameObject instantiatedPlant;
+    
 
     void Start()
     {
         gameUIController = GetComponent<InGameUIController>();
-
+        flowerPot = GameObject.FindGameObjectWithTag(pot);
     }
 
     void Update()
     {
-        boughtItem = boughtPlant;
         cashAmt.text = dollarSign + moneyAmt;
+        Debug.Log(boughtSmtg + ", " + plantAmt) ;
+        if(boughtSmtg && plantAmt <= plantLimit)
+        {
+            instantiatedPlant.transform.localPosition = new Vector3(0f, 0.85f, -0.1f);
+            //instantiatedPlant.transform.localScale = new Vector3(1f, 1f, 1f);
+            boughtSmtg = false;
+        }
     }
 
     public void VegeTabBtn()
@@ -101,82 +117,134 @@ public class ShopMenuController : MonoBehaviour
 
     public void BoughtCorn()
     {
-        moneyAmt -= 30f;
-        boughtPlant = corn;
-        boughtSmtg = true;
+        if(plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 30f;
+            instantiatedPlant = Instantiate(halfCornPrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
     public void BoughtCucumber()
     {
-        moneyAmt -= 20f;
-        boughtPlant = cucumber;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 20f;
+            instantiatedPlant = Instantiate(halfCucumberPrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
     public void BoughtTomato()
     {
-        moneyAmt -= 20f;
-        boughtPlant = tomato;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 20f;
+            instantiatedPlant = Instantiate(halfTomatoPrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
     public void BoughtTurnip()
     {
-        moneyAmt -= 10f;
-        boughtPlant = turnip;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 10f;
+            instantiatedPlant = Instantiate(halfTurnipPrefab, flowerPot.transform);
+            boughtSmtg = true;
+
+        }
     }
     public void BoughtCabbage()
     {
-        moneyAmt -= 30f;
-        boughtPlant = cabbage;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 30f;
+            instantiatedPlant = Instantiate(halfCabbagePrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
     public void BoughtSunflower()
     {
-        moneyAmt -= 10f;
-        boughtPlant = sunflower;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 10f;
+            instantiatedPlant = Instantiate(halfSunflowerPrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
     public void BoughtMarigold()
     {
-        moneyAmt -= 10f;
-        boughtPlant = marigold;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 10f;
+            instantiatedPlant = Instantiate(halfMarigoldPrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
     public void BoughtLavender()
     {
-        moneyAmt -= 10f;
-        boughtPlant = lavender;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 10f;
+            instantiatedPlant = Instantiate(halfLavenderPrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
     public void BoughtConeflower()
     {
-        moneyAmt -= 10f;
-        boughtPlant = coneflower;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 10f;
+            instantiatedPlant = Instantiate(halfConeflowerPrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
     public void BoughtCilantro()
     {
-        moneyAmt -= 10f;
-        boughtPlant = cilantro;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 10f;
+            instantiatedPlant = Instantiate(halfCilantroPrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
     public void BoughtThyme()
     {
-        moneyAmt -= 10f;
-        boughtPlant = rosemary;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 10f;
+            instantiatedPlant = Instantiate(halfThymePrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
     public void BoughtRosemary()
     {
-        moneyAmt -= 10f;
-        boughtPlant = rosemary;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 10f;
+            instantiatedPlant = Instantiate(halfRosemaryPrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
     public void BoughtMint()
     {
-        moneyAmt -= 10f;
-        boughtPlant = mint;
-        boughtSmtg = true;
+        if (plantAmt < plantLimit)
+        {
+            plantAmt++;
+            moneyAmt -= 10f;
+            instantiatedPlant = Instantiate(halfMintPrefab, flowerPot.transform);
+            boughtSmtg = true;
+        }
     }
-
 
 }
