@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DentedPixel;
 
 public class ShopMenuController : MonoBehaviour
 {
@@ -43,6 +44,7 @@ public class ShopMenuController : MonoBehaviour
 
     [Header("Plants Prefab")]
     public GameObject halfCornPrefab;
+    public GameObject fullCornPrefab;
     public GameObject halfCucumberPrefab;
     public GameObject halfTomatoPrefab;
     public GameObject halfTurnipPrefab;
@@ -56,6 +58,15 @@ public class ShopMenuController : MonoBehaviour
     public GameObject halfRosemaryPrefab;
     public GameObject halfMintPrefab;
 
+    [Header("Progress Bar")]
+    public GameObject bar;
+    public GameObject harvestMessage;
+    public GameObject waterMessage;
+    public GameObject wateringCan;
+    public GameObject fertilizeMessage;
+    public Animator wateringAnim;
+    public GameObject worm;
+    public GameObject progressBar;
 
     int plantAmt;
     //public static string boughtItem;
@@ -66,6 +77,15 @@ public class ShopMenuController : MonoBehaviour
     GameObject flowerPot;
     GameObject instantiatedPlant;
     GameObject tempPot;
+    GameObject halfPlant;
+    GameObject fullPlant;
+    float waterEventTime;
+    float currentTime;
+    private Animation anim;
+    float wormSpawnTime;
+    
+
+    
 
     void Start()
     {
@@ -77,8 +97,24 @@ public class ShopMenuController : MonoBehaviour
     void Update()
     {
         cashAmt.text = dollarSign + moneyAmt;
-        Debug.Log(boughtSmtg + ", " + plantAmt) ;
-        if(boughtSmtg && plantAmt <= plantLimit)
+        //Debug.Log(boughtSmtg + ", " + plantAmt);
+        Debug.Log(currentTime);
+        if (!fertilizeMessage.active && !waterMessage.active && !worm.active)
+        {
+            currentTime += Time.deltaTime;
+        }
+        if (waterEventTime != 0f && currentTime > waterEventTime)
+        {
+            waterMessage.SetActive(true);
+            LeanTween.pause(bar);
+        }
+        if (waterEventTime != 0f && currentTime > wormSpawnTime)
+        {
+            Debug.Log("WormTest");
+            InstantiateWorm();
+            LeanTween.pause(bar);
+        }
+        if (boughtSmtg && plantAmt <= plantLimit)
         {
             tempPot.SetActive(false);
             Destroy(tempPot);
@@ -86,6 +122,7 @@ public class ShopMenuController : MonoBehaviour
             //instantiatedPlant.transform.localScale = new Vector3(1f, 1f, 1f);
             boughtSmtg = false;
         }
+        
     }
 
     public void VegeTabBtn()
@@ -122,8 +159,11 @@ public class ShopMenuController : MonoBehaviour
         if(plantAmt < plantLimit)
         {
             plantAmt++;
+            halfPlant = halfCornPrefab;
+            fullPlant = fullCornPrefab;
             moneyAmt -= 30f;
             instantiatedPlant = Instantiate(halfCornPrefab, flowerPot.transform);
+            AnimateBar(10f);
             boughtSmtg = true;
         }
     }
@@ -247,5 +287,50 @@ public class ShopMenuController : MonoBehaviour
             instantiatedPlant = Instantiate(halfMintPrefab, flowerPot.transform);
             boughtSmtg = true;
         }
+    }
+
+    //Progress Bar
+    public void AnimateBar(float plantGrowthTime)
+    {
+        waterEventTime = plantGrowthTime / 2;
+        wormSpawnTime = Random.Range(waterEventTime, plantGrowthTime);
+        Debug.Log("Worm Time: " + wormSpawnTime);
+        progressBar.SetActive(true);
+        LeanTween.scaleX(bar, 1, plantGrowthTime).setOnComplete(GrowPlant);
+        currentTime = 0f;
+        fertilizeMessage.SetActive(true);
+        LeanTween.pause(bar);
+        
+    }
+
+    void GrowPlant()
+    {
+        harvestMessage.SetActive(true);
+        Destroy(instantiatedPlant);
+        Instantiate(fullPlant, flowerPot.transform);
+    }
+
+    public void WaterPlant()
+    {
+        if (!fertilizeMessage.active)
+        {
+            waterMessage.SetActive(false);
+            LeanTween.resume(bar);
+            wateringCan.SetActive(true);
+            wateringAnim.enabled = true;
+            waterEventTime = 0f;
+        }
+    }
+
+    public void FertilizePlant()
+    {
+        fertilizeMessage.SetActive(false);
+        LeanTween.resume(bar);
+    }
+
+    public void InstantiateWorm()
+    {
+        //Instantiate(worm, flowerPot.transform);
+        worm.SetActive(true);
     }
 }
