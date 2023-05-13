@@ -61,6 +61,7 @@ public class ShopMenuController : MonoBehaviour
     void Start()
     {
         gameUIController = GetComponent<InGameUIController>();
+
     }
 
     void Update()
