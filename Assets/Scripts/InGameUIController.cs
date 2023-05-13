@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class InGameUIController : MonoBehaviour
 {
+    [Header("Checking booleans")]
+    public bool qrCodeScanned = false;
+
     [Header("Buttons")]
     public GameObject hideUIButton;
     public GameObject fertilizeButton;
@@ -17,6 +20,7 @@ public class InGameUIController : MonoBehaviour
     public Animator fertilizeAnimator;
     public Animator waterAnimator;
     public Animator shopMenuAnimator;
+    public Animator warningScanPotAnimator;
 
     [Header("Main Menu Animator")]
     public Animator startGameAnimator;
@@ -29,7 +33,6 @@ public class InGameUIController : MonoBehaviour
     public Animator continueGameAnimator;
     public Animator settingsQuitGameAnimator;
 
-
     [Header("Panel")]
     public GameObject shopPanel;
     public GameObject inGamePanel;
@@ -37,32 +40,32 @@ public class InGameUIController : MonoBehaviour
     public GameObject mainMenuPanel;
     public GameObject moneyPanel;
     public GameObject settingsPanel;
+    public GameObject scanPotNotiPanel;
 
     bool hideUI = false;
     bool fertilizing = false;
+    public bool potUsed = false;
     bool watering = false;
+
 
     void Update()
     {
-        if (ShopMenuController.boughtSmtg)
+        if (ShopMenuController.boughtSmtg && !potUsed)
         {
             CloseShopBtn();
-            ShopMenuController.boughtSmtg = false;
-            //check for item = shopMenuController.boughtItem;
-            //then when tap on a pot, plant it.
-            //set boughtSmtg back to false after plant;
+            potUsed = true;
         }
         if (fertilizing)
         {
-            //if click a plant, fertilize and speed up timer
-            //if click anywhere else, cancel
             fertilizing = false;
         }
         if (watering)
         {
-            //same with fertilizing
             watering = false;
         }
+
+
+        //animators
         if (startGameAnimator.enabled)
         {
             if (startGameAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1.0f)
@@ -111,6 +114,14 @@ public class InGameUIController : MonoBehaviour
                 continueGameAnimator.enabled = false;
             }
         }
+        else if(warningScanPotAnimator.enabled)
+        {
+            if(warningScanPotAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1.0f)
+            {
+                scanPotNotiPanel.SetActive(false);
+                warningScanPotAnimator.enabled = false;
+            }
+        }
     }
 
     public void HideUIBtn()
@@ -140,8 +151,17 @@ public class InGameUIController : MonoBehaviour
     }
     public void OpenShopBtn()
     {
-        shopMenuAnimator.SetTrigger("OpenShop");
-        inGamePanel.SetActive(false);
+        if (qrCodeScanned)
+        {
+            shopMenuAnimator.SetTrigger("OpenShop");
+            inGamePanel.SetActive(false);
+        }
+        else
+        {
+            scanPotNotiPanel.SetActive(true);
+            warningScanPotAnimator.enabled = true;
+        }
+
     }
     public void CloseShopBtn()
     {
@@ -161,25 +181,26 @@ public class InGameUIController : MonoBehaviour
     {
         openInstructionsAnimator.enabled = true;
     }
-
     public void CloseInstructions()
     {
         closeInstructionAnimator.enabled = true;
     }
-
     public void OpenSettingsBtn()
     {
         settingsPanel.SetActive(true);
         settingsAnimator.SetTrigger("OpenSettings");
     }
-
     public void ContinueGameBtn()
     {
         continueGameAnimator.enabled = true;
     }
-    
     public void SettingsQuitGameBtn()
     {
         settingsQuitGameAnimator.enabled = true;
+    }
+
+    public void QRCodeScanned()
+    {
+        qrCodeScanned = true;
     }
 }
