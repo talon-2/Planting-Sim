@@ -21,6 +21,7 @@ public class InGameUIController : MonoBehaviour
     public Animator waterAnimator;
     public Animator shopMenuAnimator;
     public Animator warningScanPotAnimator;
+    public Animator waterCanAnimator;
 
     [Header("Main Menu Animator")]
     public Animator startGameAnimator;
@@ -42,9 +43,12 @@ public class InGameUIController : MonoBehaviour
     public GameObject settingsPanel;
     public GameObject scanPotNotiPanel;
 
+    [Header("Watering Can")]
+    public GameObject wateringCan;
+
     bool hideUI = false;
     bool fertilizing = false;
-    public bool potUsed = false;
+    public static bool potUsed = false;
     bool watering = false;
 
 
@@ -61,7 +65,13 @@ public class InGameUIController : MonoBehaviour
         }
         if (watering)
         {
-            watering = false;
+            if (waterCanAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1.0f)
+            {
+              waterCanAnimator.enabled = false;
+                wateringCan.transform.localScale = new Vector3(0f, 0f, 0f);
+               wateringCan.SetActive(false);
+                watering = false;
+            }
         }
 
 
@@ -122,6 +132,8 @@ public class InGameUIController : MonoBehaviour
                 warningScanPotAnimator.enabled = false;
             }
         }
+
+
     }
 
     public void HideUIBtn()
@@ -147,6 +159,8 @@ public class InGameUIController : MonoBehaviour
     }
     public void WaterBtn()
     {
+        wateringCan.SetActive(true);
+        waterCanAnimator.enabled = true;
         watering = true;
     }
     public void OpenShopBtn()

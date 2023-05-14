@@ -68,6 +68,49 @@ public class ShopMenuController : MonoBehaviour
     public GameObject worm;
     public GameObject progressBar;
 
+    [Header("Plant Prices")]
+    public float CornPrice;
+    public float CornProfit;
+    public float CucumberPrice;
+    public float CucumberProfit;
+    public float TomatoPrice;
+    public float TomatoProfit;
+    public float TurnipPrice;
+    public float TurnipProfit;
+    public float CabbagePrice;
+    public float CabbageProfit;
+    public float SunflowerPrice;
+    public float SunflowerProfit;
+    public float MarigoldPrice;
+    public float MarigoldProfit;
+    public float LavenderPrice;
+    public float LavenderProfit;
+    public float ConeflowerPrice;
+    public float ConeflowerProfit;
+    public float ClinatroPrice;
+    public float ClinatroProfit;
+    public float ThymePrice;
+    public float ThymeProfit;
+    public float RosemaryPrice;
+    public float RosemaryProfit;
+    public float MintPrice;
+    public float MintProfit;
+
+    [Header("Plant Growth Time")]
+    public float CornTime;
+    public float CucumberTime;
+    public float TomatorTime;
+    public float TurnipTime;
+    public float CabbageTime;
+    public float SunflowerTime;
+    public float MarigoldTime;
+    public float LavenderTime;
+    public float ConeflowerTime;
+    public float ClinatroTime;
+    public float ThymeTime;
+    public float RosemaryTime;
+    public float MintTime;
+
     int plantAmt;
     //public static string boughtItem;
     public static bool boughtSmtg = false;
@@ -83,10 +126,10 @@ public class ShopMenuController : MonoBehaviour
     float currentTime;
     private Animation anim;
     float wormSpawnTime;
+    float profit;
+    float plantGrowthTime;
+    GameObject instantiatedWateringCan;
     
-
-    
-
     void Start()
     {
         gameUIController = GetComponent<InGameUIController>();
@@ -98,7 +141,7 @@ public class ShopMenuController : MonoBehaviour
     {
         cashAmt.text = dollarSign + moneyAmt;
         //Debug.Log(boughtSmtg + ", " + plantAmt);
-        Debug.Log(currentTime);
+        //Debug.Log(currentTime);
         if (!fertilizeMessage.active && !waterMessage.active && !worm.active)
         {
             currentTime += Time.deltaTime;
@@ -108,16 +151,47 @@ public class ShopMenuController : MonoBehaviour
             waterMessage.SetActive(true);
             LeanTween.pause(bar);
         }
-        if (waterEventTime != 0f && currentTime > wormSpawnTime)
-        {
-            Debug.Log("WormTest");
+        //Debug.Log("Worm Time: " + wormSpawnTime);
+        //Debug.Log("Water Time: " + waterEventTime);
+        if (wormSpawnTime != 0f && currentTime > wormSpawnTime)
+        {        
             InstantiateWorm();
             LeanTween.pause(bar);
+        }
+
+        if(Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
+            RaycastHit hit;
+
+            if(Physics.Raycast(ray, out hit))
+            {
+                if(hit.collider != null)
+                {
+                    if (worm.active)
+                    {
+                        worm.SetActive(false);
+                        LeanTween.resume(bar);
+                    }
+                    if (currentTime > plantGrowthTime)
+                    {
+                        Destroy(instantiatedPlant);
+                        moneyAmt += profit;
+                        tempPot.SetActive(true);
+                        harvestMessage.SetActive(false);
+                        LeanTween.scaleX(bar, 0, 0);
+                        progressBar.SetActive(false);
+                        plantAmt--;
+                        InGameUIController.potUsed = false;
+                        currentTime = 0f;
+                    }
+                }
+            }
         }
         if (boughtSmtg && plantAmt <= plantLimit)
         {
             tempPot.SetActive(false);
-            Destroy(tempPot);
+            //Destroy(tempPot);
             //instantiatedPlant.transform.localPosition = new Vector3(0f, 0.85f, -0.1f);
             //instantiatedPlant.transform.localScale = new Vector3(1f, 1f, 1f);
             boughtSmtg = false;
@@ -161,9 +235,11 @@ public class ShopMenuController : MonoBehaviour
             plantAmt++;
             halfPlant = halfCornPrefab;
             fullPlant = fullCornPrefab;
-            moneyAmt -= 30f;
+            profit = CornProfit;
+            plantGrowthTime = CornTime;
+            moneyAmt -= CornPrice;
             instantiatedPlant = Instantiate(halfCornPrefab, flowerPot.transform);
-            AnimateBar(10f);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
@@ -294,7 +370,6 @@ public class ShopMenuController : MonoBehaviour
     {
         waterEventTime = plantGrowthTime / 2;
         wormSpawnTime = Random.Range(waterEventTime, plantGrowthTime);
-        Debug.Log("Worm Time: " + wormSpawnTime);
         progressBar.SetActive(true);
         LeanTween.scaleX(bar, 1, plantGrowthTime).setOnComplete(GrowPlant);
         currentTime = 0f;
@@ -307,7 +382,7 @@ public class ShopMenuController : MonoBehaviour
     {
         harvestMessage.SetActive(true);
         Destroy(instantiatedPlant);
-        Instantiate(fullPlant, flowerPot.transform);
+        instantiatedPlant = Instantiate(fullPlant, flowerPot.transform);
     }
 
     public void WaterPlant()
@@ -326,11 +401,13 @@ public class ShopMenuController : MonoBehaviour
     {
         fertilizeMessage.SetActive(false);
         LeanTween.resume(bar);
+        //instantiatedWateringCan = Instantiate(wateringCan, );
     }
 
     public void InstantiateWorm()
     {
         //Instantiate(worm, flowerPot.transform);
         worm.SetActive(true);
+        wormSpawnTime = 0f;
     }
 }

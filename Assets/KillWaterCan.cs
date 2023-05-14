@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class KillWaterCan : StateMachineBehaviour
 {
+    //public GameObject wateringCan;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Destroy(animator.gameObject, stateInfo.length);
+        //Destroy(animator.gameObject, stateInfo.length);
+        //animator.gameObject.SetActive(false);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -16,10 +18,10 @@ public class KillWaterCan : StateMachineBehaviour
     //    
     //}
 
-    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
+    //OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{
-    //    
+        
     //}
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
