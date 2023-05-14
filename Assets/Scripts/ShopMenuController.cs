@@ -141,7 +141,11 @@ public class ShopMenuController : MonoBehaviour
     float profit;
     float plantGrowthTime;
     GameObject instantiatedWateringCan;
-    
+
+    [Header("AudioSources")]
+    public AudioSource wormSquash;
+
+
     void Start()
     {
         gameUIController = GetComponent<InGameUIController>();
@@ -180,6 +184,7 @@ public class ShopMenuController : MonoBehaviour
                 {
                     if (worm.active)
                     {
+                        wormSquash.Play();
                         worm.SetActive(false);
                         LeanTween.resume(bar);
                     }
@@ -458,6 +463,7 @@ public class ShopMenuController : MonoBehaviour
     {
         if (!fertilizeMessage.active)
         {
+            
             waterMessage.SetActive(false);
             LeanTween.resume(bar);
             wateringCan.SetActive(true);

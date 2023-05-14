@@ -46,6 +46,13 @@ public class InGameUIController : MonoBehaviour
     [Header("Watering Can")]
     public GameObject wateringCan;
 
+
+    [Header("AudioSources")]
+    public AudioSource playGameBtnSound;
+    public AudioSource openInstructionBtnSound;
+    public AudioSource closeInstructionGameBtnSound;
+    public AudioSource continueGameBtnSound;
+
     bool hideUI = false;
     bool fertilizing = false;
     public static bool potUsed = false;
@@ -184,18 +191,22 @@ public class InGameUIController : MonoBehaviour
 
     public void StartGame()
     {
+        playGameBtnSound.Play();
         startGameAnimator.enabled = true;
     }
     public void CloseGame()
     {
+        
         quitGameAnimator.enabled = true;
     }
     public void OpenInstructions()
     {
+        openInstructionBtnSound.Play();
         openInstructionsAnimator.enabled = true;
     }
     public void CloseInstructions()
     {
+        closeInstructionGameBtnSound.Play();
         closeInstructionAnimator.enabled = true;
     }
     public void OpenSettingsBtn()
@@ -205,6 +216,7 @@ public class InGameUIController : MonoBehaviour
     }
     public void ContinueGameBtn()
     {
+        continueGameBtnSound.Play();
         continueGameAnimator.enabled = true;
     }
     public void SettingsQuitGameBtn()
