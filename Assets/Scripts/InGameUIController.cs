@@ -48,6 +48,7 @@ public class InGameUIController : MonoBehaviour
 
 
     [Header("AudioSources")]
+    public AudioSource dirtFertilizerSound;
     public AudioSource playGameBtnSound;
     public AudioSource openInstructionBtnSound;
     public AudioSource closeInstructionGameBtnSound;
@@ -161,6 +162,7 @@ public class InGameUIController : MonoBehaviour
     }
     public void FertilizeBtn()
     {
+        dirtFertilizerSound.Play();
         fertilizing = true;
     }
     public void WaterBtn()
