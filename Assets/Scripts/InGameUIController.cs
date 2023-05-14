@@ -67,9 +67,8 @@ public class InGameUIController : MonoBehaviour
         {
             if (waterCanAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1.0f)
             {
-              waterCanAnimator.enabled = false;
-                wateringCan.transform.localScale = new Vector3(0f, 0f, 0f);
-               wateringCan.SetActive(false);
+                waterCanAnimator.enabled = false;
+                wateringCan.SetActive(false);
                 watering = false;
             }
         }

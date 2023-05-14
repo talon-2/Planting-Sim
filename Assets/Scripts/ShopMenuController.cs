@@ -140,8 +140,7 @@ public class ShopMenuController : MonoBehaviour
     void Update()
     {
         cashAmt.text = dollarSign + moneyAmt;
-        //Debug.Log(boughtSmtg + ", " + plantAmt);
-        //Debug.Log(currentTime);
+
         if (!fertilizeMessage.active && !waterMessage.active && !worm.active)
         {
             currentTime += Time.deltaTime;
@@ -151,8 +150,7 @@ public class ShopMenuController : MonoBehaviour
             waterMessage.SetActive(true);
             LeanTween.pause(bar);
         }
-        //Debug.Log("Worm Time: " + wormSpawnTime);
-        //Debug.Log("Water Time: " + waterEventTime);
+
         if (wormSpawnTime != 0f && currentTime > wormSpawnTime)
         {        
             InstantiateWorm();
