@@ -34,7 +34,7 @@ public class ShopMenuController : MonoBehaviour
     public GameObject sunflowerBtn;
     public GameObject marigoldBtn;
     public GameObject lavenderBtn;
-    public GameObject coneflowerBtn;
+    public GameObject CornflowerBtn;
 
     [Header("Herb Buy Buttons")]
     public GameObject cilantroBtn;
@@ -46,17 +46,29 @@ public class ShopMenuController : MonoBehaviour
     public GameObject halfCornPrefab;
     public GameObject fullCornPrefab;
     public GameObject halfCucumberPrefab;
+    public GameObject fullCucumberPrefab;
     public GameObject halfTomatoPrefab;
+    public GameObject fullTomatoPrefab;
     public GameObject halfTurnipPrefab;
+    public GameObject fullTurnipPrefab;
     public GameObject halfCabbagePrefab;
+    public GameObject fullCabbagePrefab;
     public GameObject halfSunflowerPrefab;
+    public GameObject fullSunflowerPrefab;
     public GameObject halfMarigoldPrefab;
+    public GameObject fullMarigoldPrefab;
     public GameObject halfLavenderPrefab;
-    public GameObject halfConeflowerPrefab;
+    public GameObject fullLavanderPrefab;
+    public GameObject halfCornflowerPrefab;
+    public GameObject fullCornflowerPrefab;
     public GameObject halfCilantroPrefab;
+    public GameObject fullCilantroPrefab;
     public GameObject halfThymePrefab;
+    public GameObject fullThymePrefab;
     public GameObject halfRosemaryPrefab;
+    public GameObject fullRosemaryPrefab;
     public GameObject halfMintPrefab;
+    public GameObject fullMintPrefab;
 
     [Header("Progress Bar")]
     public GameObject bar;
@@ -69,47 +81,47 @@ public class ShopMenuController : MonoBehaviour
     public GameObject progressBar;
 
     [Header("Plant Prices")]
-    public float CornPrice;
-    public float CornProfit;
-    public float CucumberPrice;
-    public float CucumberProfit;
-    public float TomatoPrice;
-    public float TomatoProfit;
-    public float TurnipPrice;
-    public float TurnipProfit;
-    public float CabbagePrice;
-    public float CabbageProfit;
-    public float SunflowerPrice;
-    public float SunflowerProfit;
-    public float MarigoldPrice;
-    public float MarigoldProfit;
-    public float LavenderPrice;
-    public float LavenderProfit;
-    public float ConeflowerPrice;
-    public float ConeflowerProfit;
-    public float ClinatroPrice;
-    public float ClinatroProfit;
-    public float ThymePrice;
-    public float ThymeProfit;
-    public float RosemaryPrice;
-    public float RosemaryProfit;
-    public float MintPrice;
-    public float MintProfit;
+    public float cornPrice;
+    public float cornProfit;
+    public float cucumberPrice;
+    public float cucumberProfit;
+    public float tomatoPrice;
+    public float tomatoProfit;
+    public float turnipPrice;
+    public float turnipProfit;
+    public float cabbagePrice;
+    public float cabbageProfit;
+    public float sunflowerPrice;
+    public float sunflowerProfit;
+    public float marigoldPrice;
+    public float marigoldProfit;
+    public float lavenderPrice;
+    public float lavenderProfit;
+    public float CornflowerPrice;
+    public float CornflowerProfit;
+    public float cilantroPrice;
+    public float cilantroProfit;
+    public float thymePrice;
+    public float thymeProfit;
+    public float rosemaryPrice;
+    public float rosemaryProfit;
+    public float mintPrice;
+    public float mintProfit;
 
     [Header("Plant Growth Time")]
-    public float CornTime;
-    public float CucumberTime;
-    public float TomatorTime;
-    public float TurnipTime;
-    public float CabbageTime;
-    public float SunflowerTime;
-    public float MarigoldTime;
-    public float LavenderTime;
-    public float ConeflowerTime;
-    public float ClinatroTime;
-    public float ThymeTime;
-    public float RosemaryTime;
-    public float MintTime;
+    public float cornTime;
+    public float cucumberTime;
+    public float tomatoTime;
+    public float turnipTime;
+    public float cabbageTime;
+    public float sunflowerTime;
+    public float marigoldTime;
+    public float lavenderTime;
+    public float CornflowerTime;
+    public float cilantroTime;
+    public float thymeTime;
+    public float rosemaryTime;
+    public float mintTime;
 
     int plantAmt;
     //public static string boughtItem;
@@ -233,10 +245,10 @@ public class ShopMenuController : MonoBehaviour
             plantAmt++;
             halfPlant = halfCornPrefab;
             fullPlant = fullCornPrefab;
-            profit = CornProfit;
-            plantGrowthTime = CornTime;
-            moneyAmt -= CornPrice;
-            instantiatedPlant = Instantiate(halfCornPrefab, flowerPot.transform);
+            profit = cornProfit;
+            plantGrowthTime = cornTime;
+            moneyAmt -= cornPrice;
+            instantiatedPlant = Instantiate(halfPlant, flowerPot.transform);
             AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
@@ -246,8 +258,13 @@ public class ShopMenuController : MonoBehaviour
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 20f;
+            halfPlant = halfCucumberPrefab;
+            fullPlant = fullCucumberPrefab;
+            profit = cucumberProfit;
+            plantGrowthTime = cucumberTime;
+            moneyAmt -= cucumberPrice;
             instantiatedPlant = Instantiate(halfCucumberPrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
@@ -256,8 +273,13 @@ public class ShopMenuController : MonoBehaviour
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 20f;
+            halfPlant = halfTomatoPrefab;
+            fullPlant = fullTomatoPrefab;
+            profit = tomatoProfit;
+            plantGrowthTime = tomatoTime;
+            moneyAmt -= tomatoPrice;
             instantiatedPlant = Instantiate(halfTomatoPrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
@@ -266,10 +288,14 @@ public class ShopMenuController : MonoBehaviour
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 10f;
+            halfPlant = halfTurnipPrefab;
+            fullPlant = fullTurnipPrefab;
+            profit = turnipProfit;
+            plantGrowthTime = turnipTime;
+            moneyAmt -= turnipPrice;
             instantiatedPlant = Instantiate(halfTurnipPrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
-
         }
     }
     public void BoughtCabbage()
@@ -277,8 +303,13 @@ public class ShopMenuController : MonoBehaviour
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 30f;
+            halfPlant = halfCabbagePrefab;
+            fullPlant = fullCabbagePrefab;
+            profit = cabbageProfit;
+            plantGrowthTime = cabbageTime;
+            moneyAmt -= cabbagePrice;
             instantiatedPlant = Instantiate(halfCabbagePrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
@@ -287,8 +318,13 @@ public class ShopMenuController : MonoBehaviour
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 10f;
+            halfPlant = halfSunflowerPrefab;
+            fullPlant = fullSunflowerPrefab;
+            profit = sunflowerProfit;
+            plantGrowthTime = sunflowerTime;
+            moneyAmt -= sunflowerPrice;
             instantiatedPlant = Instantiate(halfSunflowerPrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
@@ -297,8 +333,13 @@ public class ShopMenuController : MonoBehaviour
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 10f;
+            halfPlant = halfMarigoldPrefab;
+            fullPlant = fullMarigoldPrefab;
+            profit = marigoldProfit;
+            plantGrowthTime = marigoldTime;
+            moneyAmt -= marigoldPrice;
             instantiatedPlant = Instantiate(halfMarigoldPrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
@@ -307,18 +348,28 @@ public class ShopMenuController : MonoBehaviour
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 10f;
-            instantiatedPlant = Instantiate(halfLavenderPrefab, flowerPot.transform);
+            halfPlant = halfLavenderPrefab;
+            fullPlant = fullLavanderPrefab;
+            profit = lavenderProfit;
+            plantGrowthTime = lavenderTime;
+            moneyAmt -= lavenderPrice;
+            instantiatedPlant = Instantiate(halfTomatoPrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
-    public void BoughtConeflower()
+    public void BoughtCornflower()
     {
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 10f;
-            instantiatedPlant = Instantiate(halfConeflowerPrefab, flowerPot.transform);
+            halfPlant = halfCornflowerPrefab;
+            fullPlant = fullCornflowerPrefab;
+            profit = CornflowerProfit;
+            plantGrowthTime = CornflowerTime;
+            moneyAmt -= CornflowerPrice;
+            instantiatedPlant = Instantiate(halfCornflowerPrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
@@ -327,8 +378,13 @@ public class ShopMenuController : MonoBehaviour
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 10f;
+            halfPlant = halfCilantroPrefab;
+            fullPlant = fullCilantroPrefab;
+            profit = cilantroProfit;
+            plantGrowthTime = cilantroTime;
+            moneyAmt -= cilantroPrice;
             instantiatedPlant = Instantiate(halfCilantroPrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
@@ -337,8 +393,13 @@ public class ShopMenuController : MonoBehaviour
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 10f;
+            halfPlant = halfThymePrefab;
+            fullPlant = fullThymePrefab;
+            profit = thymeProfit;
+            plantGrowthTime = thymeTime;
+            moneyAmt -= thymePrice;
             instantiatedPlant = Instantiate(halfThymePrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
@@ -347,8 +408,13 @@ public class ShopMenuController : MonoBehaviour
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 10f;
+            halfPlant = halfRosemaryPrefab;
+            fullPlant = fullRosemaryPrefab;
+            profit = rosemaryProfit;
+            plantGrowthTime = rosemaryTime;
+            moneyAmt -= rosemaryPrice;
             instantiatedPlant = Instantiate(halfRosemaryPrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
@@ -357,8 +423,13 @@ public class ShopMenuController : MonoBehaviour
         if (plantAmt < plantLimit)
         {
             plantAmt++;
-            moneyAmt -= 10f;
-            instantiatedPlant = Instantiate(halfMintPrefab, flowerPot.transform);
+            halfPlant = halfMintPrefab;
+            fullPlant = fullMintPrefab;
+            profit = mintProfit;
+            plantGrowthTime = mintTime;
+            moneyAmt -= rosemaryPrice;
+            instantiatedPlant = Instantiate(halfRosemaryPrefab, flowerPot.transform);
+            AnimateBar(plantGrowthTime);
             boughtSmtg = true;
         }
     }
